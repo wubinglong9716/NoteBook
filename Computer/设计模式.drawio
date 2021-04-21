@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T12:47:08.189Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="395KXNsYCarRcbftRpVk" version="14.6.3" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2021-04-21T12:47:26.786Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="DtDGEkqJE5bzjXtvYHQK" version="14.6.3" type="github" pages="15">
   <diagram id="6uVOZgBl6a7U4eXh3Hkw" name="简单工厂模式">
     <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -810,6 +810,14 @@
       <root>
         <mxCell id="IyCg7FEjcb4__uJvRSCF-0" />
         <mxCell id="IyCg7FEjcb4__uJvRSCF-1" parent="IyCg7FEjcb4__uJvRSCF-0" />
+        <mxCell id="TDYyGeKDcKjg4xnC0Kae-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.007;entryY=0.208;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FF0000;" edge="1" parent="IyCg7FEjcb4__uJvRSCF-1" source="TDYyGeKDcKjg4xnC0Kae-29" target="TDYyGeKDcKjg4xnC0Kae-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TDYyGeKDcKjg4xnC0Kae-31" value="&lt;font color=&quot;#000000&quot;&gt;装饰&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="TDYyGeKDcKjg4xnC0Kae-30">
+          <mxGeometry x="0.156" y="-2" relative="1" as="geometry">
+            <mxPoint x="7" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="TDYyGeKDcKjg4xnC0Kae-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;align=left;" vertex="1" parent="IyCg7FEjcb4__uJvRSCF-1">
           <mxGeometry x="840" y="200" width="240" height="360" as="geometry" />
         </mxCell>
@@ -895,14 +903,6 @@
         </mxCell>
         <mxCell id="TDYyGeKDcKjg4xnC0Kae-27" value="+ BeautifulShapeDecorator(Shape)&#xa;+ draw(): void&#xa;+ setBorder(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TDYyGeKDcKjg4xnC0Kae-24">
           <mxGeometry y="60" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TDYyGeKDcKjg4xnC0Kae-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.49;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FF0000;" edge="1" parent="IyCg7FEjcb4__uJvRSCF-1" source="TDYyGeKDcKjg4xnC0Kae-29" target="TDYyGeKDcKjg4xnC0Kae-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TDYyGeKDcKjg4xnC0Kae-31" value="&lt;font color=&quot;#000000&quot;&gt;装饰&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="TDYyGeKDcKjg4xnC0Kae-30">
-          <mxGeometry x="0.156" y="-2" relative="1" as="geometry">
-            <mxPoint x="7" y="2" as="offset" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
