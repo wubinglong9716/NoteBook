@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T02:25:04.780Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="ANj8HKH8gFHajUG81aUF" version="14.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-21T02:26:06.127Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="1DWTvAaXK8RXz_3kLcMl" version="14.6.3" type="github">
   <diagram id="cTSsLISojrEdWvWWu5KB" name="锁膨胀">
     <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -165,7 +165,7 @@
         <mxCell id="gwfLGuDfP8buWN1H-0vx-64" value="锁膨胀（轻量级锁升级重量级锁流程）：&lt;br&gt;1. Thread-1 使用 CAS 的方式让锁记录 MarkWord 和锁对象的 MarkWord 交换&lt;br&gt;2. 交换成功后锁记录的对象引用指向锁对象&lt;br&gt;3. 锁重入&lt;br&gt;4. Thread-2 使用 CAS 的方式获取轻量级锁，获取失败，进行锁膨胀&lt;br&gt;5. 申请 monitor 对象，锁对象的 MarkWord 指向 monitor 对象&lt;br&gt;6. monitor 的 owner 指向锁的持有者 Thread-1&lt;br&gt;7. Thread-2 进入到 monitor 的 entryList 中，阻塞等待" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="420" y="880" width="440" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="gwfLGuDfP8buWN1H-0vx-68" value="两阶段终止" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="gwfLGuDfP8buWN1H-0vx-68" value="&amp;nbsp; 两阶段终止" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1200" y="200" width="480" height="440" as="geometry" />
         </mxCell>
         <mxCell id="gwfLGuDfP8buWN1H-0vx-72" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="gwfLGuDfP8buWN1H-0vx-70" target="gwfLGuDfP8buWN1H-0vx-71">
