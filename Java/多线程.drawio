@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T02:20:33.679Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="YRI757muZV5IjQR89QLy" version="14.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-21T02:25:04.780Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="ANj8HKH8gFHajUG81aUF" version="14.6.3" type="github">
   <diagram id="cTSsLISojrEdWvWWu5KB" name="锁膨胀">
     <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -110,7 +110,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gwfLGuDfP8buWN1H-0vx-32" value="Lock record 地址 00" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gwfLGuDfP8buWN1H-0vx-32" value="对象头" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="695" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gwfLGuDfP8buWN1H-0vx-33" value="对象引用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
