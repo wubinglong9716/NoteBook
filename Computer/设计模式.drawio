@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T13:31:26.107Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="utVVIhEyMlw0Z2mu5d9w" version="14.6.3" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2021-04-22T01:37:39.222Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="9TNaaUxVcEW8eOHcRATE" version="14.6.3" type="github" pages="33">
   <diagram id="6uVOZgBl6a7U4eXh3Hkw" name="简单工厂模式">
     <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -1084,7 +1084,7 @@
         <mxCell id="c3wsVHcuvlu1-tijb4Pc-0" />
         <mxCell id="c3wsVHcuvlu1-tijb4Pc-1" parent="c3wsVHcuvlu1-tijb4Pc-0" />
         <mxCell id="Y1RCp9mIAZtxFWHd4RDA-0" value="Filter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=none;fontColor=#FF0000;" vertex="1" parent="c3wsVHcuvlu1-tijb4Pc-1">
-          <mxGeometry x="280" y="120" width="160" height="86" as="geometry" />
+          <mxGeometry x="280" y="200" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="Y1RCp9mIAZtxFWHd4RDA-1" value="- nextFilter: Filter" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#FF0000;" vertex="1" parent="Y1RCp9mIAZtxFWHd4RDA-0">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -1103,6 +1103,150 @@
       <root>
         <mxCell id="qEtjMGy0PLunpblh_exy-0" />
         <mxCell id="qEtjMGy0PLunpblh_exy-1" parent="qEtjMGy0PLunpblh_exy-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FmNJsMhpyR3GI1Ocuzxr" name="解释器模式">
+    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="-R4SWxMianszj6l5k_7M-0" />
+        <mxCell id="-R4SWxMianszj6l5k_7M-1" parent="-R4SWxMianszj6l5k_7M-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="P0NYilnwy7NilgMISeLH" name="迭代器模式">
+    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="O0cE5oND_bWJCXSwxVK--0" />
+        <mxCell id="O0cE5oND_bWJCXSwxVK--1" parent="O0cE5oND_bWJCXSwxVK--0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dmL8nIewkgXT0hWdKzZu" name="中介者模式">
+    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="SB47g3MZlFWANBImU1c9-0" />
+        <mxCell id="SB47g3MZlFWANBImU1c9-1" parent="SB47g3MZlFWANBImU1c9-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="iopje_fP0P7r-zrmn39x" name="备忘录模式">
+    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="NTbVEYHoU5B1Md1kOxyz-0" />
+        <mxCell id="NTbVEYHoU5B1Md1kOxyz-1" parent="NTbVEYHoU5B1Md1kOxyz-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ePg_DAeb5xNCNoN4qbOG" name="观察者模式">
+    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="MBgta7hFc-Kwg6BjLTdO-0" />
+        <mxCell id="MBgta7hFc-Kwg6BjLTdO-1" parent="MBgta7hFc-Kwg6BjLTdO-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="uCSA7o65VViXW5K3vn0-" name="状态模式">
+    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="46qpcVgP88msDHEfZ3zD-0" />
+        <mxCell id="46qpcVgP88msDHEfZ3zD-1" parent="46qpcVgP88msDHEfZ3zD-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xNm6d28OGHXHEs1a1khF" name="空对模式">
+    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="gKLVHEw3HHBtFZtR8PFX-0" />
+        <mxCell id="gKLVHEw3HHBtFZtR8PFX-1" parent="gKLVHEw3HHBtFZtR8PFX-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="oodDYXixfjmMm2WR8Bpr" name="策略模式">
+    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="dwN5VwlBaz4HAWs4uNLU-0" />
+        <mxCell id="dwN5VwlBaz4HAWs4uNLU-1" parent="dwN5VwlBaz4HAWs4uNLU-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vPJ13MjzvaIi3ysevY2N" name="模板模式">
+    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="9b0KJCt5kqa40lLj4Pmr-0" />
+        <mxCell id="9b0KJCt5kqa40lLj4Pmr-1" parent="9b0KJCt5kqa40lLj4Pmr-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wdo3AJxTqwuWToC-jyWP" name="访问者模式">
+    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="tI4m2k8wbnShY9tIIiTB-0" />
+        <mxCell id="tI4m2k8wbnShY9tIIiTB-1" parent="tI4m2k8wbnShY9tIIiTB-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="q5Zf16UdycMfTy-MQiai" name="MVC 模式">
+    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="XukyvSDvMLn3Q75-03ea-0" />
+        <mxCell id="XukyvSDvMLn3Q75-03ea-1" parent="XukyvSDvMLn3Q75-03ea-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="q70JUM5zD_WtmYkAhH6a" name="业务代表模式">
+    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="F_o_wki51v9lksgC8d_7-0" />
+        <mxCell id="F_o_wki51v9lksgC8d_7-1" parent="F_o_wki51v9lksgC8d_7-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9kUq5R41dKL2zN87Jaxi" name="组合实体模式">
+    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="X5U3GmzenyKxOufIYmtC-0" />
+        <mxCell id="X5U3GmzenyKxOufIYmtC-1" parent="X5U3GmzenyKxOufIYmtC-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="08oJTzenSDy7QOQ_HSHw" name="数据访问对象模式">
+    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="dn9G9MmZg_X6qY1VAhcZ-0" />
+        <mxCell id="dn9G9MmZg_X6qY1VAhcZ-1" parent="dn9G9MmZg_X6qY1VAhcZ-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zdWzAM7kJvyDTbrEaY71" name="前端控制器模式">
+    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="3ucoWXR_m-2Kl9SzEV4G-0" />
+        <mxCell id="3ucoWXR_m-2Kl9SzEV4G-1" parent="3ucoWXR_m-2Kl9SzEV4G-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="S-TQAM9CdhDH-ZxnljXw" name="拦截过滤器模式">
+    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="Mg0NmWxbCXgh6LoOJTX_-0" />
+        <mxCell id="Mg0NmWxbCXgh6LoOJTX_-1" parent="Mg0NmWxbCXgh6LoOJTX_-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NuyLwiaLjK4jTgjkSVmY" name="服务定位器模式">
+    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="gORS7WFBNCLS9RPG0s2z-0" />
+        <mxCell id="gORS7WFBNCLS9RPG0s2z-1" parent="gORS7WFBNCLS9RPG0s2z-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RIqoFUnlZXyMtMBLi7vd" name="传输对象模式">
+    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="irCp4vD9XJc9n8NjctQq-0" />
+        <mxCell id="irCp4vD9XJc9n8NjctQq-1" parent="irCp4vD9XJc9n8NjctQq-0" />
       </root>
     </mxGraphModel>
   </diagram>
