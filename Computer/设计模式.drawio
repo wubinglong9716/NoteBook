@@ -1,4 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2021-04-22T02:26:52.478Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="tC4GOwxtQnRtgA4uOrl6" version="14.6.3" type="github" pages="23">
+<mxfile host="app.diagrams.net" modified="2021-04-22T03:15:10.011Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="ULEjjGrwpbQfd0xP7VJB" version="14.6.3" type="github" pages="18">
+  <diagram id="O6Z0c8OKy_Po6585Q8Ay" name="概述">
+    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="UPSi5jWUL3za1NR9OHws-0" />
+        <mxCell id="UPSi5jWUL3za1NR9OHws-1" parent="UPSi5jWUL3za1NR9OHws-0" />
+        <mxCell id="UPSi5jWUL3za1NR9OHws-3" value="设计模式大体上分为三类：&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;创建型：简单工厂模式、抽象工厂模式、单例模式、建造者模式，原型模式&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;结构型：适配器模式、桥接模式、过滤器模式、组合模式、装饰器模式、外观模式、享元模式、代理模式&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;行为型：责任链模式、命令模式、解释器模式、迭代器模式、中介者模式、备忘录模式、观察者模式、状态模式、空对象模式、策略模式、模板模式、访问者模式" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="UPSi5jWUL3za1NR9OHws-1">
+          <mxGeometry x="160" y="160" width="630" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4XDrENHm2S-nQmBOGhK0-0" value="设计模式（Design Pattern）是代表最佳的实践，是软件开发人员在软件开发过程中面临的一般问题的解决方案。" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;align=left;" vertex="1" parent="UPSi5jWUL3za1NR9OHws-1">
+          <mxGeometry x="160" y="80" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4XDrENHm2S-nQmBOGhK0-1" value="设计模式的原则：&lt;br&gt;&lt;ol&gt;&lt;li&gt;开闭原则：对扩展开放，对修改关闭&lt;/li&gt;&lt;li&gt;里氏代换原则：任何基类可以出现的地方，子类也一定可以出现&lt;/li&gt;&lt;li&gt;依赖倒转原则：针对接口编程，依赖于抽象而不依赖于实体&lt;/li&gt;&lt;li&gt;接口隔离原则：降低类之间的耦合度——使用多个隔离的接口比使用单个接口要好&lt;/li&gt;&lt;li&gt;迪米特法则（最少暴露原则）：一个实体应当尽量减少与其它实体之间的相互作用&lt;/li&gt;&lt;li&gt;合成复用原则：尽量使用合成/聚合的方式，而不是使用继承&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;align=left;" vertex="1" parent="UPSi5jWUL3za1NR9OHws-1">
+          <mxGeometry x="160" y="280" width="640" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4XDrENHm2S-nQmBOGhK0-2" value="各设计模式的简单概括：&lt;br&gt;&lt;ul&gt;&lt;li&gt;简单工厂模式：提供一种创建对象的最佳方式，隐藏对象的创建逻辑&lt;/li&gt;&lt;li&gt;抽象工厂模式：简单来说是工厂的工厂，提供创建工厂的方式，使用创建出来的工厂来创建对象&lt;/li&gt;&lt;li&gt;单例模式：一种类至多只有一个实体&lt;/li&gt;&lt;li&gt;建造者模式：将一个复杂的对象一步一步的构建出来，使得构建的过程与表示分离&lt;/li&gt;&lt;li&gt;原型模式：创建完全同样的对象，并且能保证性能&lt;/li&gt;&lt;li&gt;&amp;nbsp;&lt;/li&gt;&lt;li&gt;适配器模式：让不兼容的接口之间能够兼容使用&lt;/li&gt;&lt;li&gt;桥接模式：将抽象部分与实现部分分离，两者都可以独立变化&lt;/li&gt;&lt;li&gt;过滤器模式：使用一组标准来过滤一组对象&lt;/li&gt;&lt;li&gt;组合模式：把一组相似的对象当做一个单一的对象，依据树形结构来表示整体层次&lt;/li&gt;&lt;li&gt;装饰器模式：向一个现有的对象添加新功能，同时又不改变其结构&lt;/li&gt;&lt;li&gt;外观模式：隐藏系统的复杂性，向外暴露简单的使用方式&lt;/li&gt;&lt;li&gt;享元模式：使用共享的技术支持大量细粒度的对象访问，减少内存的使用和提高性能&lt;/li&gt;&lt;li&gt;代理模式：为其它对象提供一种代理，用以控制对象的访问&lt;/li&gt;&lt;li&gt;&amp;nbsp;&lt;/li&gt;&lt;li&gt;责任链模式：避免请求的发送者与接收者耦合在一起，接收的对象形成一条链，沿着这条链传递请求，知道有接收者处理为止&lt;/li&gt;&lt;li&gt;命令模式：请求以命令的形式包裹在对象中，并传递给接收对象进行处理&lt;/li&gt;&lt;li&gt;解释器模式：给定一种语句，复合系统定义的文法，解释器负责解析该语句&lt;/li&gt;&lt;li&gt;迭代器模式：用于顺序访问集合中的对象元素，不需要知道低层的实现&lt;/li&gt;&lt;li&gt;中介者模式：提供一个中介类，负责处理不同类对象之间的通信&lt;/li&gt;&lt;li&gt;备忘录模式：保存对象的某个时刻状态，用于对象的恢复&lt;/li&gt;&lt;li&gt;观察者模式：使用观察者类观察(监听)对象，当被观察(被监听)对象发生更改时，观察者自动通知(回调)相关的依赖对象&lt;/li&gt;&lt;li&gt;状态模式：对象的行为由状态决定&lt;/li&gt;&lt;li&gt;空对象模式：使用空对象取代 NULL 对象实例（NULL 对象时不做任何动作或使用默认动作的表示）&lt;/li&gt;&lt;li&gt;策略模式：使用策略对象和一个随着策略对象的改变而改变的对象，依据策略对象作出不同的行为&lt;/li&gt;&lt;li&gt;模板模式：定义公共的抽象部分&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;align=left;" vertex="1" parent="UPSi5jWUL3za1NR9OHws-1">
+          <mxGeometry x="160" y="480" width="820" height="450" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="6uVOZgBl6a7U4eXh3Hkw" name="简单工厂模式">
     <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -1222,54 +1242,6 @@
         <mxCell id="XbzZdkVo_jhpY4XKwZr--21" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;align=left;" vertex="1" parent="dwN5VwlBaz4HAWs4uNLU-1">
           <mxGeometry x="400" y="120" width="600" height="261" as="geometry" />
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="4xmLgVYXcXaflJUwi7B6" name="模板方法模式">
-    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
-      <root>
-        <mxCell id="-YYbsxTx1m2d65TQDpto-0" />
-        <mxCell id="-YYbsxTx1m2d65TQDpto-1" parent="-YYbsxTx1m2d65TQDpto-0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="Nxuozkn7Iq2Iyx7BX-HI" name="迭代子模式">
-    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
-      <root>
-        <mxCell id="srVwosYNt_Ufmcm0K4gh-0" />
-        <mxCell id="srVwosYNt_Ufmcm0K4gh-1" parent="srVwosYNt_Ufmcm0K4gh-0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="zFAjCQGV490_iuNNt35R" name="命令模式">
-    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
-      <root>
-        <mxCell id="C0t4YWGdbvLqQVRE3JJD-0" />
-        <mxCell id="C0t4YWGdbvLqQVRE3JJD-1" parent="C0t4YWGdbvLqQVRE3JJD-0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="Ag93DpeSluTbyjvB23a2" name="备忘录模式">
-    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
-      <root>
-        <mxCell id="uhJzUgmsIXpNEOZpPMNX-0" />
-        <mxCell id="uhJzUgmsIXpNEOZpPMNX-1" parent="uhJzUgmsIXpNEOZpPMNX-0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="XcwY4GmhMaW93LeYeDQ4" name="状态模式">
-    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
-      <root>
-        <mxCell id="f3ZIMOpFCTFIEqHGExyj-0" />
-        <mxCell id="f3ZIMOpFCTFIEqHGExyj-1" parent="f3ZIMOpFCTFIEqHGExyj-0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="SRLOeDU1VP1cJB6V1_rG" name="访问者模式">
-    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
-      <root>
-        <mxCell id="GYoOOwdeDOLfznbSfrwJ-0" />
-        <mxCell id="GYoOOwdeDOLfznbSfrwJ-1" parent="GYoOOwdeDOLfznbSfrwJ-0" />
       </root>
     </mxGraphModel>
   </diagram>
