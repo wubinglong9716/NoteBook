@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2021-04-25T08:34:20.190Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" version="14.6.6" etag="-9dXEJVRD6SDVgHmeUcS" type="github"><diagram id="PrUBXq0-UHqgNhgCyKFX">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-25T08:51:42.357Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="X3oXhzeBbd-d17ST-JVv" version="14.6.6" type="github">
+  <diagram id="PrUBXq0-UHqgNhgCyKFX" name="概述">
+    <mxGraphModel dx="2066" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uVFn725BH_lKRYzAoym2-2" value="首页：https://redis.io/&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;Redis 是一种开源（BSD 许可）的内存数据结构存储数据库，可用于数据存、缓存、消息代理等。 Redis 具有内置的备份机制，支持 Lua 脚本和事务，并通过 Redis Sentinel 和 Redis Cluster 等技术架构提供了高可用方案&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 12px;&quot;&gt;支持的数据类型有：string，hash，list，set，sorted set with range queries，bitmap，hyperloglog，geospatial index，stream&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="730" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uVFn725BH_lKRYzAoym2-3" value="redis 参考命令：http://doc.redisfans.com/&lt;br style=&quot;font-size: 12px;&quot;&gt;官方命令介绍：https://redis.io/commands" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="280" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
