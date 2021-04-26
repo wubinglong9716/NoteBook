@@ -1,1 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2021-04-26T03:31:26.188Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" version="14.6.6" etag="v54maAG5EoWqqiWEePke" type="github"><diagram id="hXLVD3eKz2sDppKYfOW3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-26T07:51:23.178Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="_EGvAgdwtaSua90jZn2s" version="14.6.6" type="github" pages="3">
+  <diagram id="hXLVD3eKz2sDppKYfOW3" name="绪论">
+    <mxGraphModel dx="946" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NsG8wrJ9B8KUeXQaO6Ad-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="NsG8wrJ9B8KUeXQaO6Ad-1" target="NsG8wrJ9B8KUeXQaO6Ad-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NsG8wrJ9B8KUeXQaO6Ad-1" value="`D = {(x_1, y_1); (x_2, y_2); ...; (x_n, y_n)}`&lt;br&gt;`x_i = (x_{i1}; x_{i2}; ...; x_{im})`，`y_i \in \mathbb{R}`" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="480" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NsG8wrJ9B8KUeXQaO6Ad-2" value="`D = {(x_i, y_i)}_{i=1}^m`" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="480" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kb9Tch6RQbsCsAx2A3gA" name="评估">
+    <mxGraphModel dx="946" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="sNDJ_X1pwSr7X0AGPWUc-0" />
+        <mxCell id="sNDJ_X1pwSr7X0AGPWUc-1" parent="sNDJ_X1pwSr7X0AGPWUc-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gAahg7PFdRT5oCCxnbNN" name="线性模型">
+    <mxGraphModel dx="946" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="1" shadow="0">
+      <root>
+        <mxCell id="akblTb4k8MVLVZfvQOBi-0" />
+        <mxCell id="akblTb4k8MVLVZfvQOBi-1" parent="akblTb4k8MVLVZfvQOBi-0" />
+        <mxCell id="akblTb4k8MVLVZfvQOBi-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;" edge="1" parent="akblTb4k8MVLVZfvQOBi-1" source="akblTb4k8MVLVZfvQOBi-2" target="akblTb4k8MVLVZfvQOBi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="akblTb4k8MVLVZfvQOBi-2" value="给定由 `d` 个属性描述的示例 `x = (x_1; x_2; ...; x_d)`，线性模型试图学的一个通过属性的&lt;font color=&quot;#ff0000&quot;&gt;线性组合&lt;/font&gt;来进行预测的函数" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="akblTb4k8MVLVZfvQOBi-1">
+          <mxGeometry x="120" y="80" width="680" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="akblTb4k8MVLVZfvQOBi-3" value="&lt;span&gt;`f(x) = w_1x_1 + w_2x_2 + ... + w_dx_d + b`，一般用向量形式写成：`f(x) = w^Tx + b`&lt;br&gt;其中 `w = (w_1; w_2; ...; w_d)` 和 `b` 学得之后，模型便得以确定&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="akblTb4k8MVLVZfvQOBi-1">
+          <mxGeometry x="198.75" y="200" width="521.25" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
