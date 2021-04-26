@@ -1,14 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2021-04-25T09:11:00.197Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="tfr4Lihgr7A1EEjn6gdF" version="14.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-04-26T11:20:21.318Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="67ggj4A8HrAadugCKODp" version="14.6.6" type="github" pages="4">
   <diagram id="PrUBXq0-UHqgNhgCyKFX" name="理论">
     <mxGraphModel dx="2066" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="uVFn725BH_lKRYzAoym2-2" value="首页：https://redis.io/&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;Redis 是一种开源（BSD 许可）的内存数据结构存储数据库，可用于数据存、缓存、消息代理等。 Redis 具有内置的备份机制，支持 Lua 脚本和事务，并通过 Redis Sentinel 和 Redis Cluster 等技术架构提供了高可用方案&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 12px;&quot;&gt;支持的数据类型有：string，hash，list，set，sorted set with range queries，bitmap，hyperloglog，geospatial index，stream&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="uVFn725BH_lKRYzAoym2-2" value="首页：https://redis.io/&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;Redis 是一种开源（BSD 许可）的内存数据结构存储数据库，可用于数据存、缓存、消息代理等。 Redis 具有内置的备份机制，支持 Lua 脚本和事务，并通过 Redis Sentinel 和 Redis Cluster 等技术架构提供了高可用方案&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 12px;&quot;&gt;支持的数据类型有：string，hash，list，set，sorted set with range queries，bitmap，hyperloglog，geospatial index，stream&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="320" y="120" width="730" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="uVFn725BH_lKRYzAoym2-3" value="redis 参考命令：http://doc.redisfans.com/&lt;br style=&quot;font-size: 12px;&quot;&gt;官方命令介绍：https://redis.io/commands" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="uVFn725BH_lKRYzAoym2-3" value="redis 参考命令：http://doc.redisfans.com/&lt;br style=&quot;font-size: 12px;&quot;&gt;官方命令介绍：https://redis.io/commands" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="320" y="280" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SgLKANJODDEZd4ci4DfV-1" value="Server" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="SgLKANJODDEZd4ci4DfV-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SgLKANJODDEZd4ci4DfV-2" target="SgLKANJODDEZd4ci4DfV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SgLKANJODDEZd4ci4DfV-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SgLKANJODDEZd4ci4DfV-2" target="SgLKANJODDEZd4ci4DfV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SgLKANJODDEZd4ci4DfV-2" value="Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="440" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="SgLKANJODDEZd4ci4DfV-3" value="链接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="620" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SgLKANJODDEZd4ci4DfV-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SgLKANJODDEZd4ci4DfV-4" target="SgLKANJODDEZd4ci4DfV-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SgLKANJODDEZd4ci4DfV-4" value="传输" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SgLKANJODDEZd4ci4DfV-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SgLKANJODDEZd4ci4DfV-5" target="SgLKANJODDEZd4ci4DfV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SgLKANJODDEZd4ci4DfV-5" value="操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="460" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
