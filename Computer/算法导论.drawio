@@ -1,86 +1,131 @@
-<mxfile host="app.diagrams.net" modified="2021-04-26T12:20:59.090Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="qkIgbyeCOsdDqhPeMDlS" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-27T06:07:09.058Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="cfhQV9aJF9r3tTQEjpyj" version="14.6.6" type="github">
   <diagram id="_ftIEuQbQowRMAcyedYQ" name="哈希算法">
     <mxGraphModel dx="2066" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ZgCmA2nvShc4hJAHGpMs-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZgCmA2nvShc4hJAHGpMs-1" target="ZgCmA2nvShc4hJAHGpMs-2">
+        <mxCell id="ZgCmA2nvShc4hJAHGpMs-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZgCmA2nvShc4hJAHGpMs-1" target="ZgCmA2nvShc4hJAHGpMs-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZgCmA2nvShc4hJAHGpMs-1" value="什么是哈希算法？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="170" width="190" height="70" as="geometry" />
+        <mxCell id="ZgCmA2nvShc4hJAHGpMs-1" value="什么是哈希算法？" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="175" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ZgCmA2nvShc4hJAHGpMs-2" value="哈希算法是将任意长度的二进制值映射为较短的固定长度的二进制值，这个小的二进制值称为哈希值。哈希值是一段极其紧凑的数值表示形式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="170" width="380" height="80" as="geometry" />
+        <mxCell id="ZgCmA2nvShc4hJAHGpMs-2" value="哈希表（也称为散列表），是根据 键直接访问内存存储位置的数据结构。它通过一个关于键值的函数将所需查询的数据映射到表的一个位置来进行访问，这样加快了查找速度。这个函数称为哈希函数。&lt;br&gt;哈希算法是根据哈希函数和一张哈希表构成的" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="170" width="380" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZgCmA2nvShc4hJAHGpMs-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZgCmA2nvShc4hJAHGpMs-4" target="ZgCmA2nvShc4hJAHGpMs-6">
+        <mxCell id="ZgCmA2nvShc4hJAHGpMs-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZgCmA2nvShc4hJAHGpMs-4" target="ZgCmA2nvShc4hJAHGpMs-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZgCmA2nvShc4hJAHGpMs-4" value="普通哈希算法在分布式应用的中不足？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="350" width="250" height="70" as="geometry" />
+        <mxCell id="ZgCmA2nvShc4hJAHGpMs-4" value="普通哈希算法在分布式应用的中不足？" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="355" width="250" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ZgCmA2nvShc4hJAHGpMs-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZgCmA2nvShc4hJAHGpMs-6" target="ZgCmA2nvShc4hJAHGpMs-8">
+        <mxCell id="ZgCmA2nvShc4hJAHGpMs-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ZgCmA2nvShc4hJAHGpMs-6" target="ZgCmA2nvShc4hJAHGpMs-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZgCmA2nvShc4hJAHGpMs-6" value="在分布式系统中，要将数据存储到具体的节点中，如果采用普通的哈希算法进行路由，将数据映射到具体节点上，如 `f(key) = key % n`，那么，在添加添加节点或节点退出时，所有的映射都无效了，如果是持久化存储则要做数据迁移。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="350" width="650" height="80" as="geometry" />
+        <mxCell id="ZgCmA2nvShc4hJAHGpMs-6" value="在分布式系统中，要将数据存储到具体的节点中，如果采用普通的哈希算法进行路由，将数据映射到具体节点上，如 `f(key) = key % n`，那么，在添加添加节点或节点退出时，所有的映射都无效了，如果是持久化存储则要做数据迁移。" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="870" y="350" width="650" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZgCmA2nvShc4hJAHGpMs-11" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZgCmA2nvShc4hJAHGpMs-8" target="ZgCmA2nvShc4hJAHGpMs-10">
+        <mxCell id="wSCQ2BmdZy3b9YI79-c1-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZgCmA2nvShc4hJAHGpMs-8" target="ZgCmA2nvShc4hJAHGpMs-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZgCmA2nvShc4hJAHGpMs-8" value="一致性哈希算法" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="845" y="500" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="ZgCmA2nvShc4hJAHGpMs-13" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZgCmA2nvShc4hJAHGpMs-10" target="ZgCmA2nvShc4hJAHGpMs-12">
+        <mxCell id="wSCQ2BmdZy3b9YI79-c1-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZgCmA2nvShc4hJAHGpMs-8" target="wSCQ2BmdZy3b9YI79-c1-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZgCmA2nvShc4hJAHGpMs-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZgCmA2nvShc4hJAHGpMs-10" target="ZgCmA2nvShc4hJAHGpMs-14">
+        <mxCell id="wSCQ2BmdZy3b9YI79-c1-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZgCmA2nvShc4hJAHGpMs-8" target="wSCQ2BmdZy3b9YI79-c1-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZgCmA2nvShc4hJAHGpMs-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.008;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZgCmA2nvShc4hJAHGpMs-10" target="ZgCmA2nvShc4hJAHGpMs-15">
+        <mxCell id="ZgCmA2nvShc4hJAHGpMs-8" value="一致性哈希算法" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1145" y="535" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgCmA2nvShc4hJAHGpMs-13" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZgCmA2nvShc4hJAHGpMs-10" target="ZgCmA2nvShc4hJAHGpMs-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZgCmA2nvShc4hJAHGpMs-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZgCmA2nvShc4hJAHGpMs-10" target="ZgCmA2nvShc4hJAHGpMs-16">
+        <mxCell id="ZgCmA2nvShc4hJAHGpMs-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZgCmA2nvShc4hJAHGpMs-10" target="ZgCmA2nvShc4hJAHGpMs-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZgCmA2nvShc4hJAHGpMs-10" value="一致性哈希算法提出了在动态变化的环境中，都需要满足四个条件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="792.5" y="670" width="205" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ZgCmA2nvShc4hJAHGpMs-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZgCmA2nvShc4hJAHGpMs-12" target="ZgCmA2nvShc4hJAHGpMs-20">
+        <mxCell id="ZgCmA2nvShc4hJAHGpMs-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.008;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ZgCmA2nvShc4hJAHGpMs-10" target="ZgCmA2nvShc4hJAHGpMs-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZgCmA2nvShc4hJAHGpMs-12" value="均衡性" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="550" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ZgCmA2nvShc4hJAHGpMs-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZgCmA2nvShc4hJAHGpMs-14" target="ZgCmA2nvShc4hJAHGpMs-22">
+        <mxCell id="ZgCmA2nvShc4hJAHGpMs-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZgCmA2nvShc4hJAHGpMs-10" target="ZgCmA2nvShc4hJAHGpMs-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZgCmA2nvShc4hJAHGpMs-14" value="单调性" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="665" width="120" height="60" as="geometry" />
+        <mxCell id="ZgCmA2nvShc4hJAHGpMs-10" value="一致性哈希算法提出了在动态变化的环境中，都需要满足四个条件" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1390" y="560" width="205" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZgCmA2nvShc4hJAHGpMs-26" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZgCmA2nvShc4hJAHGpMs-15" target="ZgCmA2nvShc4hJAHGpMs-25">
+        <mxCell id="ZgCmA2nvShc4hJAHGpMs-12" value="均衡性" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1718.75" y="395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgCmA2nvShc4hJAHGpMs-14" value="单调性" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1718.75" y="465" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgCmA2nvShc4hJAHGpMs-15" value="分散性" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1718.75" y="535" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgCmA2nvShc4hJAHGpMs-16" value="负载性" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1718.75" y="605" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wSCQ2BmdZy3b9YI79-c1-1" value="&lt;ol&gt;&lt;li&gt;选择一个足够大的空间，如 `0 ~ 2^32` 构成一个哈希环&lt;/li&gt;&lt;li&gt;对于集群内的每个节点计算哈希值，哈希值在哈希环上&lt;/li&gt;&lt;li&gt;对每个需要存储的数据键值同样的计算一次哈希值，哈希值也映射到哈希环上&lt;/li&gt;&lt;li&gt;数据存储的位置是沿顺时针的方向找到环上的第一个节点&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="515" width="620" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="wSCQ2BmdZy3b9YI79-c1-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wSCQ2BmdZy3b9YI79-c1-3" target="wSCQ2BmdZy3b9YI79-c1-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZgCmA2nvShc4hJAHGpMs-15" value="分散性" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="760" width="120" height="60" as="geometry" />
+        <mxCell id="wSCQ2BmdZy3b9YI79-c1-3" value="一致性哈希是把节点的变动造成的影响控制在顺时针相邻节点之间，避免对整个集群都造成影响" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="760" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZgCmA2nvShc4hJAHGpMs-16" value="负载性" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="860" width="120" height="60" as="geometry" />
+        <mxCell id="wSCQ2BmdZy3b9YI79-c1-5" value="不能把影响减少到零" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1838.75" y="765" width="280" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ZgCmA2nvShc4hJAHGpMs-20" value="哈希的结果能够尽可能的分布到所有的缓冲中去（绝大多数数哈希算法都能满足这一条件）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="540" width="420" height="80" as="geometry" />
+        <mxCell id="wSCQ2BmdZy3b9YI79-c1-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wSCQ2BmdZy3b9YI79-c1-7" target="wSCQ2BmdZy3b9YI79-c1-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZgCmA2nvShc4hJAHGpMs-22" value="如果一些内容通过哈希分派到了相应的缓冲中，又有新的缓冲区加入到系统中，那么哈希的结果必须保证原有的分配内容可以被映射到新的缓冲区中，而不会被映射到旧的缓冲集合中" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="655" width="420" height="80" as="geometry" />
+        <mxCell id="wSCQ2BmdZy3b9YI79-c1-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wSCQ2BmdZy3b9YI79-c1-7" target="wSCQ2BmdZy3b9YI79-c1-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZgCmA2nvShc4hJAHGpMs-23" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZgCmA2nvShc4hJAHGpMs-22">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="960" y="460" as="sourcePoint" />
-            <mxPoint x="1010" y="410" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="wSCQ2BmdZy3b9YI79-c1-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wSCQ2BmdZy3b9YI79-c1-7" target="wSCQ2BmdZy3b9YI79-c1-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZgCmA2nvShc4hJAHGpMs-25" value="在分布式环境中，终端有可能看不到所有的换种，而是只能看到其中的一部分。当终端希望通过哈希过程将内容映射到缓冲时，由于不同的终端所见的缓冲范围有可能不同，从而导致哈希的结果不一致，最终的结果是相同的内容被不同的终端映射到不同给的缓冲" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="760" width="480" height="90" as="geometry" />
+        <mxCell id="wSCQ2BmdZy3b9YI79-c1-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wSCQ2BmdZy3b9YI79-c1-7" target="wSCQ2BmdZy3b9YI79-c1-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wSCQ2BmdZy3b9YI79-c1-7" value="存在的问题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="875" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wSCQ2BmdZy3b9YI79-c1-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wSCQ2BmdZy3b9YI79-c1-9" target="wSCQ2BmdZy3b9YI79-c1-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wSCQ2BmdZy3b9YI79-c1-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wSCQ2BmdZy3b9YI79-c1-9" target="wSCQ2BmdZy3b9YI79-c1-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wSCQ2BmdZy3b9YI79-c1-9" value="数据倾斜" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="875" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wSCQ2BmdZy3b9YI79-c1-10" value="数据和节点，只要有一个分布不均就可能造成数据集中在某一台节点上" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1553.75" y="875" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wSCQ2BmdZy3b9YI79-c1-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wSCQ2BmdZy3b9YI79-c1-13" target="wSCQ2BmdZy3b9YI79-c1-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wSCQ2BmdZy3b9YI79-c1-13" value="节点雪崩" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wSCQ2BmdZy3b9YI79-c1-16" value="数据倾斜或宕机，然后产生节点的连锁反应" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="970" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wSCQ2BmdZy3b9YI79-c1-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wSCQ2BmdZy3b9YI79-c1-21" target="wSCQ2BmdZy3b9YI79-c1-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wSCQ2BmdZy3b9YI79-c1-21" value="虚拟节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wSCQ2BmdZy3b9YI79-c1-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wSCQ2BmdZy3b9YI79-c1-23" target="wSCQ2BmdZy3b9YI79-c1-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wSCQ2BmdZy3b9YI79-c1-23" value="对单一的物理节点进行“分身”出虚拟节点，虚拟节点均衡分布在哈希环上；属于虚拟节点的数据都存储到相应的物理节点上" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="1085" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wSCQ2BmdZy3b9YI79-c1-25" value="由于虚拟节点分散在哈希环的各个部分，当某个物理节点下线时，所有相应的虚拟节点都会下线，但是数据会重新发散给多个虚拟节点的相邻节点，多个节点分摊压力，能在一定程度上避免雪崩（连锁反应）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="1085" width="460" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
