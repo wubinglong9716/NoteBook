@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-28T07:47:49.003Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="pIDFa87O7kTHGdpsKxQs" version="14.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-29T02:31:45.680Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="H9ij-LPZIW9ZwCdm2xLI" version="14.6.6" type="github" pages="3">
   <diagram id="f2I6vDPKOS6B21L50LBP" name="MyBatis">
     <mxGraphModel dx="2066" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -253,6 +253,50 @@
       <root>
         <mxCell id="YQbLsJfaHj_g22GORKLK-0" />
         <mxCell id="YQbLsJfaHj_g22GORKLK-1" parent="YQbLsJfaHj_g22GORKLK-0" />
+        <mxCell id="YQbLsJfaHj_g22GORKLK-2" value="if" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YQbLsJfaHj_g22GORKLK-1">
+          <mxGeometry x="360" y="280" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YQbLsJfaHj_g22GORKLK-3" value="choose、when、otherwise" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YQbLsJfaHj_g22GORKLK-1">
+          <mxGeometry x="360" y="400" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YQbLsJfaHj_g22GORKLK-4" value="trim、where、set" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YQbLsJfaHj_g22GORKLK-1">
+          <mxGeometry x="360" y="520" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YQbLsJfaHj_g22GORKLK-5" value="foreach" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YQbLsJfaHj_g22GORKLK-1">
+          <mxGeometry x="360" y="640" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YQbLsJfaHj_g22GORKLK-6" value="script" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YQbLsJfaHj_g22GORKLK-1">
+          <mxGeometry x="360" y="760" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YQbLsJfaHj_g22GORKLK-7" value="bind" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YQbLsJfaHj_g22GORKLK-1">
+          <mxGeometry x="360" y="880" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YQbLsJfaHj_g22GORKLK-8" value="多数据库支持" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YQbLsJfaHj_g22GORKLK-1">
+          <mxGeometry x="360" y="1000" width="200" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gSrv8eFQPiaXrgIAB-G9" name="MybatisPlus">
+    <mxGraphModel dx="946" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="nKz6d0dZiX2JDP2xMIob-0" />
+        <mxCell id="nKz6d0dZiX2JDP2xMIob-1" parent="nKz6d0dZiX2JDP2xMIob-0" />
+        <mxCell id="nKz6d0dZiX2JDP2xMIob-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="nKz6d0dZiX2JDP2xMIob-1" source="nKz6d0dZiX2JDP2xMIob-2" target="nKz6d0dZiX2JDP2xMIob-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nKz6d0dZiX2JDP2xMIob-2" value="什么是 MybatisPlus ?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="nKz6d0dZiX2JDP2xMIob-1">
+          <mxGeometry x="240" y="130" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nKz6d0dZiX2JDP2xMIob-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="nKz6d0dZiX2JDP2xMIob-1" source="nKz6d0dZiX2JDP2xMIob-3" target="nKz6d0dZiX2JDP2xMIob-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nKz6d0dZiX2JDP2xMIob-3" value="MyBatis 的一个增强工具&lt;br&gt;只做增强，不做修改&lt;br&gt;简化开发，为效率而生" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nKz6d0dZiX2JDP2xMIob-1">
+          <mxGeometry x="620" y="115" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nKz6d0dZiX2JDP2xMIob-5" value="https://mp.baomidou.com/guide/quick-start.html#%E5%88%9D%E5%A7%8B%E5%8C%96%E5%B7%A5%E7%A8%8B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nKz6d0dZiX2JDP2xMIob-1">
+          <mxGeometry x="1020" y="145" width="860" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
