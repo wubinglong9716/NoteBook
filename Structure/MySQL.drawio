@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2021-05-06T09:36:38.651Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" version="14.6.10" etag="1uWEuaUrVseAmavtiKvO" type="github"><diagram id="MMsxguZnOxTSjoMs5qfO">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-08T08:10:45.607Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="bzYO1O33VjaIHW2I8BST" version="14.6.10" type="github">
+  <diagram id="MMsxguZnOxTSjoMs5qfO" name="关系型数据库">
+    <mxGraphModel dx="2066" dy="1151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L8yggE098ojc3T5asFsY-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L8yggE098ojc3T5asFsY-1" target="L8yggE098ojc3T5asFsY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L8yggE098ojc3T5asFsY-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L8yggE098ojc3T5asFsY-1" target="L8yggE098ojc3T5asFsY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L8yggE098ojc3T5asFsY-1" value="数据库（DataBase）是按照数据接口在组织、存储和管理数据的仓库&lt;br&gt;每个数据库都有一个或多个不同的 API 用于创建、访问、管理、搜索和复制所有保存的数据" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="720" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="L8yggE098ojc3T5asFsY-3" value="关系型数据库" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L8yggE098ojc3T5asFsY-4" value="非关系型数据库" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
