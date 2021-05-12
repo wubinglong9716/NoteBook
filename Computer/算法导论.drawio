@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-12T03:42:56.183Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="AXfOpNwlXqh4JDr8RCqH" version="14.6.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-12T03:43:10.011Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="-k9UH0VzI4jvrEtByDgO" version="14.6.11" type="github" pages="2">
   <diagram id="_ftIEuQbQowRMAcyedYQ" name="哈希算法">
     <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="1" shadow="0">
       <root>
@@ -148,7 +148,7 @@
           <mxGeometry x="360" y="95" width="280" height="150" as="geometry" />
         </mxCell>
         <mxCell id="9bjt-Q4PApvt6V4Nclcf-5" value="插入排序是当前迭代元素的左边有序，右边无序，将当前迭代元素插入到左边的过程&lt;br&gt;&lt;br&gt;5~7 是将大于当前迭代元素的元素右移，8 是将当前迭代元素插入到正确的位置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9bjt-Q4PApvt6V4Nclcf-1">
-          <mxGeometry x="740" y="100" width="260" height="140" as="geometry" />
+          <mxGeometry x="720" y="100" width="260" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
