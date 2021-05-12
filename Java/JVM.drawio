@@ -1,1 +1,164 @@
-<mxfile host="app.diagrams.net" modified="2021-05-12T12:35:28.503Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" version="14.6.6" etag="ciZ2PKV22MfNKAp5cuk9" type="github"><diagram id="iXDO6jAIla3Y5226yzrE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-12T14:38:22.833Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="438g57jXo2id2uZ2MhO4" version="14.6.12" type="github">
+  <diagram id="iXDO6jAIla3Y5226yzrE" name="Page-1">
+    <mxGraphModel dx="1015" dy="1152" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="270" y="180" width="650" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="560" width="680" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F1_7sfEC2RjUFfPmMDEk-1" target="F1_7sfEC2RjUFfPmMDEk-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-1" value="javac Math.java" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F1_7sfEC2RjUFfPmMDEk-2" target="F1_7sfEC2RjUFfPmMDEk-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-2" value="java Math.class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="760" y="610" width="460" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-5" value="运行时数据区(内存模型)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="620" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-6" value="堆" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-7" value="方法区&lt;br&gt;(元空间)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-8" value="栈" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-9" value="本地方法栈" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-10" value="程序计数器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-12" value="JVM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="570" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="F1_7sfEC2RjUFfPmMDEk-13" target="F1_7sfEC2RjUFfPmMDEk-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-13" value="类装载子系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66FFB3;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="F1_7sfEC2RjUFfPmMDEk-14" target="F1_7sfEC2RjUFfPmMDEk-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-56" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="F1_7sfEC2RjUFfPmMDEk-14" target="F1_7sfEC2RjUFfPmMDEk-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1320" y="670" />
+              <mxPoint x="433" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-57" value="当 Eden 存储了足够的数据，会进行 minor gc 回收&lt;br&gt;中间过程会使用可达性分析将非垃圾引用链复制到 s0 区域，垃圾进行回收&lt;br&gt;s0 对象下次被标记为非垃圾对象，会复制到 s1 区域&lt;br&gt;每次垃圾回收所有对象的分代年龄都自增，自增超过 15 次还未被回收则复制到老年代" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="F1_7sfEC2RjUFfPmMDEk-56">
+          <mxGeometry x="0.8605" y="-28" relative="1" as="geometry">
+            <mxPoint x="-10" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-14" value="字节码执行引擎" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="F1_7sfEC2RjUFfPmMDEk-19" target="F1_7sfEC2RjUFfPmMDEk-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-19" value="每个线程在执行的时候，以方法为单位&lt;br&gt;每个方法在执行的时候，会申请一个栈帧，栈帧内存放局部变量、操作数栈、动态链接、方法信息(出口)&lt;br&gt;每个栈帧作为栈的元素存放在帧内，方法的执行以栈的形式(调用方法入栈，方法结束出栈)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="570" y="940" width="630" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F1_7sfEC2RjUFfPmMDEk-21" target="F1_7sfEC2RjUFfPmMDEk-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F1_7sfEC2RjUFfPmMDEk-21" target="F1_7sfEC2RjUFfPmMDEk-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-21" value="堆上存放数据对象&lt;br&gt;栈上存放数据引用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="820" y="440" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="F1_7sfEC2RjUFfPmMDEk-24" target="F1_7sfEC2RjUFfPmMDEk-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-24" value="每个线程在执行的时候，都会分配一个程序计数器，记录执行到方法区的地址&lt;br&gt;&lt;br&gt;程序计数器的意义在于并发问题，需要记录当前程序执行到的位置，在下次获取到时间片时继续执行" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="940" width="310" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="F1_7sfEC2RjUFfPmMDEk-28" target="F1_7sfEC2RjUFfPmMDEk-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-28" value="存放常量(引用)、静态变量(引用)、类信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="440" y="720" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="F1_7sfEC2RjUFfPmMDEk-30" target="F1_7sfEC2RjUFfPmMDEk-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-30" value="native 关键字的方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="440" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-46" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F1_7sfEC2RjUFfPmMDEk-32" target="F1_7sfEC2RjUFfPmMDEk-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-33" value="Eden&lt;br&gt;8/10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="330" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-34" value="s0&lt;br&gt;1/10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="450" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-35" value="s1&lt;br&gt;1/10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="570" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-36" value="老年代&lt;br&gt;2/3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="720" y="250" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-39" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F1_7sfEC2RjUFfPmMDEk-37" target="F1_7sfEC2RjUFfPmMDEk-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F1_7sfEC2RjUFfPmMDEk-37" target="F1_7sfEC2RjUFfPmMDEk-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-41" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F1_7sfEC2RjUFfPmMDEk-37" target="F1_7sfEC2RjUFfPmMDEk-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-37" value="年轻代&lt;br&gt;1/3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="482.5" y="190" width="55" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-44" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="F1_7sfEC2RjUFfPmMDEk-42" target="F1_7sfEC2RjUFfPmMDEk-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-45" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="F1_7sfEC2RjUFfPmMDEk-42" target="F1_7sfEC2RjUFfPmMDEk-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-42" value="Survivor 区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="535" y="330" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-52" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="F1_7sfEC2RjUFfPmMDEk-50" target="F1_7sfEC2RjUFfPmMDEk-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-50" value="可达性分析" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-51" value="将 GC Roots 对象为起点，从这些起点向下搜索引用对象，搜索到的对象都会标记为非垃圾对象，其余未标记的对象都是垃圾对象" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1110" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-53" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="F1_7sfEC2RjUFfPmMDEk-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="490" as="sourcePoint" />
+            <mxPoint x="660" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-55" value="jvisualvm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
