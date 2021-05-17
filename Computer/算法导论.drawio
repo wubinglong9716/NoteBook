@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-17T08:52:59.331Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="9Ytsi0KSU6DLA8bONjrR" version="14.6.13" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-17T08:55:32.097Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="tZMJXDkN0XfmJHmkTuzr" version="14.6.13" type="github" pages="3">
   <diagram id="rZHABt39I6PzGEgec4hI" name="数据结构">
-    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="lnXDwb00k-55SOS0SMKl-0" />
         <mxCell id="lnXDwb00k-55SOS0SMKl-1" parent="lnXDwb00k-55SOS0SMKl-0" />
@@ -82,7 +82,7 @@
         <mxCell id="lnXDwb00k-55SOS0SMKl-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="lnXDwb00k-55SOS0SMKl-1" source="lnXDwb00k-55SOS0SMKl-38" target="lnXDwb00k-55SOS0SMKl-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lnXDwb00k-55SOS0SMKl-38" value="head" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lnXDwb00k-55SOS0SMKl-1">
+        <mxCell id="lnXDwb00k-55SOS0SMKl-38" value="top" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lnXDwb00k-55SOS0SMKl-1">
           <mxGeometry x="320" y="640" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lnXDwb00k-55SOS0SMKl-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lnXDwb00k-55SOS0SMKl-1">
@@ -221,6 +221,9 @@
         </mxCell>
         <mxCell id="38gwD2kqv60m07i-RM1m-3" value="图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lnXDwb00k-55SOS0SMKl-1">
           <mxGeometry x="800" y="1010" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="38gwD2kqv60m07i-RM1m-5" value="栈是线性结构，元素线性存储，由 top 指针维护栈顶位置&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lnXDwb00k-55SOS0SMKl-1">
+          <mxGeometry x="160" y="1040" width="800" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
