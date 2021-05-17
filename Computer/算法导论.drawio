@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-17T06:35:38.114Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="1NP1c5OeCVEg0QcAgrMP" version="14.6.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-17T06:36:53.048Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="EFyVR9HN1v5-rcZJo5qe" version="14.6.13" type="github" pages="2">
   <diagram id="_ftIEuQbQowRMAcyedYQ" name="哈希算法">
     <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="1" shadow="0">
       <root>
@@ -131,33 +131,33 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RX99-fU9jca6GVLDJZ-t" name="排序">
-    <mxGraphModel dx="2066" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="1" shadow="0">
+    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="1" shadow="0">
       <root>
         <mxCell id="9bjt-Q4PApvt6V4Nclcf-0" />
         <mxCell id="9bjt-Q4PApvt6V4Nclcf-1" parent="9bjt-Q4PApvt6V4Nclcf-0" />
-        <mxCell id="9bjt-Q4PApvt6V4Nclcf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="9bjt-Q4PApvt6V4Nclcf-1" source="9bjt-Q4PApvt6V4Nclcf-2" target="9bjt-Q4PApvt6V4Nclcf-3">
+        <mxCell id="9bjt-Q4PApvt6V4Nclcf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="9bjt-Q4PApvt6V4Nclcf-1" source="9bjt-Q4PApvt6V4Nclcf-2" target="9bjt-Q4PApvt6V4Nclcf-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9bjt-Q4PApvt6V4Nclcf-2" value="插入排序" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9bjt-Q4PApvt6V4Nclcf-1">
+        <mxCell id="9bjt-Q4PApvt6V4Nclcf-2" value="插入排序" style="rounded=0;whiteSpace=wrap;html=1;" parent="9bjt-Q4PApvt6V4Nclcf-1" vertex="1">
           <mxGeometry x="160" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9bjt-Q4PApvt6V4Nclcf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="9bjt-Q4PApvt6V4Nclcf-1" source="9bjt-Q4PApvt6V4Nclcf-3" target="9bjt-Q4PApvt6V4Nclcf-5">
+        <mxCell id="9bjt-Q4PApvt6V4Nclcf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="9bjt-Q4PApvt6V4Nclcf-1" source="9bjt-Q4PApvt6V4Nclcf-3" target="9bjt-Q4PApvt6V4Nclcf-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9bjt-Q4PApvt6V4Nclcf-3" value="insertion_sort(A)&lt;br&gt;1. for j = 2 to A.length&lt;br&gt;2.&amp;nbsp; &amp;nbsp; key = A[j]&lt;br&gt;3.&amp;nbsp; &amp;nbsp; // Insert A[j] into the sorted sequence A[1...j-1]&lt;br&gt;4.&amp;nbsp; &amp;nbsp; i = j - 1&lt;br&gt;5.&amp;nbsp; &amp;nbsp; while i &amp;gt; 0 and A[i] &amp;gt; key&lt;br&gt;6.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; A[i + 1] = A[i]&lt;br&gt;7.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; i = i - 1&lt;br&gt;8.&amp;nbsp; &amp;nbsp; A[i + 1] = key" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="9bjt-Q4PApvt6V4Nclcf-1">
+        <mxCell id="9bjt-Q4PApvt6V4Nclcf-3" value="insertion_sort(A)&lt;br&gt;1. for j = 2 to A.length&lt;br&gt;2.&amp;nbsp; &amp;nbsp; key = A[j]&lt;br&gt;3.&amp;nbsp; &amp;nbsp; // Insert A[j] into the sorted sequence A[1...j-1]&lt;br&gt;4.&amp;nbsp; &amp;nbsp; i = j - 1&lt;br&gt;5.&amp;nbsp; &amp;nbsp; while i &amp;gt; 0 and A[i] &amp;gt; key&lt;br&gt;6.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; A[i + 1] = A[i]&lt;br&gt;7.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; i = i - 1&lt;br&gt;8.&amp;nbsp; &amp;nbsp; A[i + 1] = key" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="9bjt-Q4PApvt6V4Nclcf-1" vertex="1">
           <mxGeometry x="360" y="95" width="280" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="9bjt-Q4PApvt6V4Nclcf-5" value="插入排序是当前迭代元素的左边有序，右边无序，将当前迭代元素插入到左边的过程&lt;br&gt;&lt;br&gt;5~7 是将大于当前迭代元素的元素右移，8 是将当前迭代元素插入到正确的位置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9bjt-Q4PApvt6V4Nclcf-1">
+        <mxCell id="9bjt-Q4PApvt6V4Nclcf-5" value="插入排序是当前迭代元素的左边有序，右边无序，将当前迭代元素插入到左边的过程&lt;br&gt;&lt;br&gt;5~7 是将大于当前迭代元素的元素右移，8 是将当前迭代元素插入到正确的位置" style="rounded=0;whiteSpace=wrap;html=1;" parent="9bjt-Q4PApvt6V4Nclcf-1" vertex="1">
           <mxGeometry x="720" y="100" width="260" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="9bjt-Q4PApvt6V4Nclcf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="9bjt-Q4PApvt6V4Nclcf-1" source="9bjt-Q4PApvt6V4Nclcf-7" target="9bjt-Q4PApvt6V4Nclcf-8">
+        <mxCell id="9bjt-Q4PApvt6V4Nclcf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="9bjt-Q4PApvt6V4Nclcf-1" source="9bjt-Q4PApvt6V4Nclcf-7" target="9bjt-Q4PApvt6V4Nclcf-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9bjt-Q4PApvt6V4Nclcf-7" value="循环不变式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9bjt-Q4PApvt6V4Nclcf-1">
+        <mxCell id="9bjt-Q4PApvt6V4Nclcf-7" value="循环不变式" style="rounded=0;whiteSpace=wrap;html=1;" parent="9bjt-Q4PApvt6V4Nclcf-1" vertex="1">
           <mxGeometry x="160" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9bjt-Q4PApvt6V4Nclcf-8" value="用于证明循环的正确性，必须证明的三条性质：&lt;br&gt;初始值：循环的第一次迭代之前为真&lt;br&gt;保持：循环的某次迭代之前为真，下次迭代之前仍为真&lt;br&gt;终止：终止循环时为真" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9bjt-Q4PApvt6V4Nclcf-1">
-          <mxGeometry x="360" y="320" width="370" height="120" as="geometry" />
+        <mxCell id="9bjt-Q4PApvt6V4Nclcf-8" value="用于证明循环的正确性，必须证明的三条性质：&lt;br&gt;初始值：循环的第一次迭代之前为真&lt;br&gt;保持：循环的某次迭代之前为真，下次迭代之前仍为真&lt;br&gt;终止：终止循环时为真" style="rounded=0;whiteSpace=wrap;html=1;" parent="9bjt-Q4PApvt6V4Nclcf-1" vertex="1">
+          <mxGeometry x="360" y="320" width="360" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
