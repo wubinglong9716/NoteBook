@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-12T08:59:34.096Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="iISsInUwqnXUvgUOrAt2" version="14.6.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-17T06:35:38.114Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="1NP1c5OeCVEg0QcAgrMP" version="14.6.13" type="github" pages="2">
   <diagram id="_ftIEuQbQowRMAcyedYQ" name="哈希算法">
     <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="1" shadow="0">
       <root>
@@ -53,16 +53,16 @@
           <mxGeometry x="1390" y="560" width="205" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZgCmA2nvShc4hJAHGpMs-12" value="均衡性" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1718.75" y="395" width="120" height="60" as="geometry" />
+          <mxGeometry x="1718.75" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZgCmA2nvShc4hJAHGpMs-14" value="单调性" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1718.75" y="465" width="120" height="60" as="geometry" />
+          <mxGeometry x="1718.75" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZgCmA2nvShc4hJAHGpMs-15" value="分散性" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1718.75" y="535" width="120" height="60" as="geometry" />
+          <mxGeometry x="1718.75" y="590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZgCmA2nvShc4hJAHGpMs-16" value="负载性" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1718.75" y="605" width="120" height="60" as="geometry" />
+          <mxGeometry x="1718.75" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wSCQ2BmdZy3b9YI79-c1-1" value="&lt;ol&gt;&lt;li&gt;选择一个足够大的空间，如 `0 ~ 2^32` 构成一个哈希环&lt;/li&gt;&lt;li&gt;对于集群内的每个节点计算哈希值，哈希值在哈希环上&lt;/li&gt;&lt;li&gt;对每个需要存储的数据键值同样的计算一次哈希值，哈希值也映射到哈希环上&lt;/li&gt;&lt;li&gt;数据存储的位置是沿顺时针的方向找到环上的第一个节点&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="515" width="620" height="140" as="geometry" />
