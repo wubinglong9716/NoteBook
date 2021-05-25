@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T03:23:18.003Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="7r6tuqb9QAHyGWBE3GMn" version="14.6.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-25T03:24:23.159Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="vjcqin8IuABs-vzBK8tl" version="14.6.13" type="github" pages="2">
   <diagram id="iXDO6jAIla3Y5226yzrE" name="内存结构">
     <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
         <mxCell id="F1_7sfEC2RjUFfPmMDEk-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="F1_7sfEC2RjUFfPmMDEk-19" target="F1_7sfEC2RjUFfPmMDEk-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F1_7sfEC2RjUFfPmMDEk-19" value="每个线程在执行的时候，以方法为单位&lt;br&gt;每个方法在执行的时候，会申请一个栈帧，栈帧内存放局部变量、操作数栈、动态链接、方法信息(出口)&lt;br&gt;每个栈帧作为栈的元素存放在帧内，方法的执行以栈的形式(调用方法入栈，方法结束出栈)&lt;br&gt;&lt;br&gt;栈区域规定了两类异常：如果线程请求的栈深度大于虚拟机所允许的最大深度，会抛出 StackOverflowError 异常；如果虚拟机允许栈容量动态扩展，当栈扩展时无法申请到足够内存，会抛出 OutOfMemoryError 异常" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-19" value="每个线程在执行的时候，以方法为单位&lt;br&gt;每个方法在执行的时候，会申请一个栈帧，栈帧内存放局部变量、操作数栈、动态链接、方法信息(出口)&lt;br&gt;每个栈帧作为栈的元素存放在帧内，方法的执行以栈的形式(调用方法入栈，方法结束出栈)&lt;br&gt;&lt;br&gt;栈区域规定了两类异常：如果线程请求的栈深度大于虚拟机所允许的最大深度，会抛出 StackOverflowError 异常；如果虚拟机允许栈容量动态扩展，当栈扩展时无法申请到足够内存，会抛出 OutOfMemoryError 异常(如果不允许动态扩展，栈区域就不会有该异常)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1100" y="1190" width="630" height="120" as="geometry" />
         </mxCell>
         <mxCell id="F1_7sfEC2RjUFfPmMDEk-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="F1_7sfEC2RjUFfPmMDEk-21" target="F1_7sfEC2RjUFfPmMDEk-6" edge="1">
