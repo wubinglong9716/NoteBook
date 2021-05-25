@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T12:21:51.576Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="sCuGRe2te9tyzwxuXHaA" version="14.6.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-25T12:29:22.159Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="CoeGY1Qr7NCgu_bilhgx" version="14.6.13" type="github" pages="2">
   <diagram id="iXDO6jAIla3Y5226yzrE" name="内存结构">
     <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -365,6 +365,9 @@
         <mxCell id="VVIa2zSez2NkSubFIxh0-70" value="标记-复制算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
           <mxGeometry x="200" y="920" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-77" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-71" target="VVIa2zSez2NkSubFIxh0-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="VVIa2zSez2NkSubFIxh0-71" value="先对所有的内存对象进行标记(存活对象和垃圾对象)，然后把存活对象复制到另外一片内存区域，重新建立引用后清除一片内存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
           <mxGeometry x="360" y="885" width="120" height="110" as="geometry" />
         </mxCell>
@@ -377,8 +380,14 @@
         <mxCell id="VVIa2zSez2NkSubFIxh0-74" value="标记-整理算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
           <mxGeometry x="200" y="1080" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VVIa2zSez2NkSubFIxh0-75" value="先对所有的内存对象进行标记(存活对象和垃圾对象)，然后把存活对象整理到连续的内存区域" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+        <mxCell id="VVIa2zSez2NkSubFIxh0-79" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-75" target="VVIa2zSez2NkSubFIxh0-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-75" value="先对所有的内存对象进行标记(存活对象和垃圾对象)，然后把存活对象移动到内存空间的一端，然后清除剩下的所有空间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
           <mxGeometry x="360" y="1045" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-78" value="与标记-清除算法的区别在于对象是否进行移动，该项决策的风险和收益也显而易见" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="520" y="1040" width="560" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
