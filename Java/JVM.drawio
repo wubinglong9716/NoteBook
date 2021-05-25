@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T11:27:26.243Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="dnVBFtHyZhzGxvimDHHx" version="14.6.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-25T11:31:12.871Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="yjpS_pW2leyqi75gk3V2" version="14.6.13" type="github" pages="2">
   <diagram id="iXDO6jAIla3Y5226yzrE" name="内存结构">
     <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -107,8 +107,8 @@
         <mxCell id="3DsW1-FtTBoWucF77_-t-1" parent="3DsW1-FtTBoWucF77_-t-0" />
         <mxCell id="4ajyqlWD8BumoEpYcGuu-10" value="" style="endArrow=classic;html=1;" parent="3DsW1-FtTBoWucF77_-t-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="420" as="sourcePoint" />
-            <mxPoint x="1403" y="420" as="targetPoint" />
+            <mxPoint x="2160" y="1190" as="sourcePoint" />
+            <mxPoint x="3203" y="1190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4ajyqlWD8BumoEpYcGuu-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="3DsW1-FtTBoWucF77_-t-1" source="4ajyqlWD8BumoEpYcGuu-0" target="4ajyqlWD8BumoEpYcGuu-3" edge="1">
@@ -118,63 +118,63 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4ajyqlWD8BumoEpYcGuu-0" value="ParNew" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="3DsW1-FtTBoWucF77_-t-1" vertex="1">
-          <mxGeometry x="400" y="360" width="120" height="40" as="geometry" />
+          <mxGeometry x="2200" y="1130" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ajyqlWD8BumoEpYcGuu-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="3DsW1-FtTBoWucF77_-t-1" source="4ajyqlWD8BumoEpYcGuu-1" target="4ajyqlWD8BumoEpYcGuu-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4ajyqlWD8BumoEpYcGuu-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" parent="3DsW1-FtTBoWucF77_-t-1" source="4ajyqlWD8BumoEpYcGuu-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="620" y="440" as="targetPoint" />
+            <mxPoint x="2420" y="1210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4ajyqlWD8BumoEpYcGuu-1" value="Serial" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="3DsW1-FtTBoWucF77_-t-1" vertex="1">
-          <mxGeometry x="560" y="360" width="120" height="40" as="geometry" />
+          <mxGeometry x="2360" y="1130" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ajyqlWD8BumoEpYcGuu-2" value="CMS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="3DsW1-FtTBoWucF77_-t-1" vertex="1">
-          <mxGeometry x="400" y="440" width="120" height="40" as="geometry" />
+          <mxGeometry x="2200" y="1210" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ajyqlWD8BumoEpYcGuu-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="3DsW1-FtTBoWucF77_-t-1" source="4ajyqlWD8BumoEpYcGuu-3" target="4ajyqlWD8BumoEpYcGuu-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4ajyqlWD8BumoEpYcGuu-3" value="Serial Old" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="3DsW1-FtTBoWucF77_-t-1" vertex="1">
-          <mxGeometry x="560" y="440" width="120" height="40" as="geometry" />
+          <mxGeometry x="2360" y="1210" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ajyqlWD8BumoEpYcGuu-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="3DsW1-FtTBoWucF77_-t-1" source="4ajyqlWD8BumoEpYcGuu-4" target="4ajyqlWD8BumoEpYcGuu-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4ajyqlWD8BumoEpYcGuu-4" value="Parallel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="3DsW1-FtTBoWucF77_-t-1" vertex="1">
-          <mxGeometry x="720" y="360" width="120" height="40" as="geometry" />
+          <mxGeometry x="2520" y="1130" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ajyqlWD8BumoEpYcGuu-5" value="Parallel Old" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="3DsW1-FtTBoWucF77_-t-1" vertex="1">
-          <mxGeometry x="720" y="440" width="120" height="40" as="geometry" />
+          <mxGeometry x="2520" y="1210" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ajyqlWD8BumoEpYcGuu-6" value="G1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="3DsW1-FtTBoWucF77_-t-1" vertex="1">
-          <mxGeometry x="880" y="400" width="120" height="40" as="geometry" />
+          <mxGeometry x="2680" y="1170" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ajyqlWD8BumoEpYcGuu-7" value="ZGC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="3DsW1-FtTBoWucF77_-t-1" vertex="1">
-          <mxGeometry x="1040" y="400" width="120" height="40" as="geometry" />
+          <mxGeometry x="2840" y="1170" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ajyqlWD8BumoEpYcGuu-8" value="Shenandoah&lt;br&gt;G1 的增强版 redhat 开发" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="3DsW1-FtTBoWucF77_-t-1" vertex="1">
-          <mxGeometry x="1200" y="400" width="160" height="40" as="geometry" />
+          <mxGeometry x="3000" y="1170" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ajyqlWD8BumoEpYcGuu-9" value="Epsilon" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="3DsW1-FtTBoWucF77_-t-1" vertex="1">
-          <mxGeometry x="1040" y="320" width="120" height="40" as="geometry" />
+          <mxGeometry x="2840" y="1090" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VVIa2zSez2NkSubFIxh0-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
-          <mxGeometry x="690" y="950" width="650" height="190" as="geometry" />
+          <mxGeometry x="2490" y="1720" width="650" height="190" as="geometry" />
         </mxCell>
         <mxCell id="VVIa2zSez2NkSubFIxh0-1" value="Eden&lt;br&gt;8/10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
-          <mxGeometry x="750" y="1020" width="120" height="60" as="geometry" />
+          <mxGeometry x="2550" y="1790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VVIa2zSez2NkSubFIxh0-2" value="s0&lt;br&gt;1/10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
-          <mxGeometry x="870" y="1020" width="120" height="60" as="geometry" />
+          <mxGeometry x="2670" y="1790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VVIa2zSez2NkSubFIxh0-3" value="s1&lt;br&gt;1/10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
-          <mxGeometry x="990" y="1020" width="120" height="60" as="geometry" />
+          <mxGeometry x="2790" y="1790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VVIa2zSez2NkSubFIxh0-4" value="老年代&lt;br&gt;2/3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
-          <mxGeometry x="1140" y="1020" width="150" height="60" as="geometry" />
+          <mxGeometry x="2940" y="1790" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VVIa2zSez2NkSubFIxh0-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-8" target="VVIa2zSez2NkSubFIxh0-1">
           <mxGeometry relative="1" as="geometry" />
@@ -186,7 +186,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VVIa2zSez2NkSubFIxh0-8" value="年轻代&lt;br&gt;1/3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
-          <mxGeometry x="902.5" y="960" width="55" height="40" as="geometry" />
+          <mxGeometry x="2702.5" y="1730" width="55" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VVIa2zSez2NkSubFIxh0-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-11" target="VVIa2zSez2NkSubFIxh0-3">
           <mxGeometry relative="1" as="geometry" />
@@ -195,19 +195,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VVIa2zSez2NkSubFIxh0-11" value="Survivor 区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
-          <mxGeometry x="955" y="1100" width="70" height="30" as="geometry" />
+          <mxGeometry x="2755" y="1870" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VVIa2zSez2NkSubFIxh0-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-13" target="VVIa2zSez2NkSubFIxh0-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VVIa2zSez2NkSubFIxh0-13" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;当 Eden 存储了足够的数据，会进行 minor gc 回收&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;中间过程会使用可达性分析将非垃圾引用链复制到 s0 区域，垃圾进行回收&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;s0 对象下次被标记为非垃圾对象，会复制到 s1 区域&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;每次垃圾回收所有对象的分代年龄都自增，自增超过 15 次还未被回收则复制到老年代&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
-          <mxGeometry x="520" y="680" width="500" height="130" as="geometry" />
+          <mxGeometry x="2320" y="1450" width="500" height="130" as="geometry" />
         </mxCell>
         <mxCell id="VVIa2zSez2NkSubFIxh0-14" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-15" target="VVIa2zSez2NkSubFIxh0-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VVIa2zSez2NkSubFIxh0-15" value="当老年代存储数据满了之后，会进行 full gc 进行垃圾回收&lt;br&gt;当回收的速度不及增加的速度，会出现内存溢出（OOM）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
-          <mxGeometry x="1070" y="680" width="490" height="90" as="geometry" />
+          <mxGeometry x="2870" y="1450" width="490" height="90" as="geometry" />
         </mxCell>
         <mxCell id="VVIa2zSez2NkSubFIxh0-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-19" target="VVIa2zSez2NkSubFIxh0-20">
           <mxGeometry relative="1" as="geometry" />
@@ -219,10 +219,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VVIa2zSez2NkSubFIxh0-19" value="可达性分析" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
-          <mxGeometry x="710" y="570" width="120" height="60" as="geometry" />
+          <mxGeometry x="2510" y="1340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VVIa2zSez2NkSubFIxh0-20" value="将 GC Roots 对象为起点，从这些起点向下搜索引用对象，搜索到的对象都会标记为非垃圾对象，其余未标记的对象都是垃圾对象&lt;br&gt;&lt;br&gt;注意：可达性分析只负责标记，具体的回收由 gc 执行" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
-          <mxGeometry x="920" y="560" width="410" height="80" as="geometry" />
+          <mxGeometry x="2720" y="1330" width="410" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
