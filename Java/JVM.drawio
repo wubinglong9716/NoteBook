@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T12:29:22.159Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="CoeGY1Qr7NCgu_bilhgx" version="14.6.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-25T12:29:48.922Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ZSsmIL1zkpy8FFHuw16l" version="14.6.13" type="github" pages="2">
   <diagram id="iXDO6jAIla3Y5226yzrE" name="内存结构">
     <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -209,20 +209,14 @@
         <mxCell id="VVIa2zSez2NkSubFIxh0-15" value="当老年代存储数据满了之后，会进行 full gc 进行垃圾回收&lt;br&gt;当回收的速度不及增加的速度，会出现内存溢出（OOM）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
           <mxGeometry x="2870" y="1450" width="490" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="VVIa2zSez2NkSubFIxh0-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-19" target="VVIa2zSez2NkSubFIxh0-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VVIa2zSez2NkSubFIxh0-17" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-19" target="VVIa2zSez2NkSubFIxh0-13">
+        <mxCell id="VVIa2zSez2NkSubFIxh0-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-19" target="VVIa2zSez2NkSubFIxh0-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VVIa2zSez2NkSubFIxh0-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-19" target="VVIa2zSez2NkSubFIxh0-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VVIa2zSez2NkSubFIxh0-19" value="可达性分析" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
-          <mxGeometry x="2510" y="1340" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VVIa2zSez2NkSubFIxh0-20" value="将 GC Roots 对象为起点，从这些起点向下搜索引用对象，搜索到的对象都会标记为非垃圾对象，其余未标记的对象都是垃圾对象&lt;br&gt;&lt;br&gt;注意：可达性分析只负责标记，具体的回收由 gc 执行" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
-          <mxGeometry x="2720" y="1330" width="410" height="80" as="geometry" />
+          <mxGeometry x="2730" y="1330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VVIa2zSez2NkSubFIxh0-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-21" target="VVIa2zSez2NkSubFIxh0-22">
           <mxGeometry relative="1" as="geometry" />
