@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T03:24:23.159Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="vjcqin8IuABs-vzBK8tl" version="14.6.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-25T03:27:17.544Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="QMfDM6Ras2BHClTxs_5U" version="14.6.13" type="github" pages="2">
   <diagram id="iXDO6jAIla3Y5226yzrE" name="内存结构">
     <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -88,8 +88,8 @@
         <mxCell id="F1_7sfEC2RjUFfPmMDEk-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="F1_7sfEC2RjUFfPmMDEk-30" target="F1_7sfEC2RjUFfPmMDEk-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F1_7sfEC2RjUFfPmMDEk-30" value="native 关键字的方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="1595" y="690" width="150" height="60" as="geometry" />
+        <mxCell id="F1_7sfEC2RjUFfPmMDEk-30" value="native 关键字的方法&lt;br&gt;与栈的作用很相似，区别在于栈为字节码服务，本地方法栈为本地方法服务&lt;br&gt;&lt;br&gt;本地方法栈也可以不与栈做严格区分" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="600" width="180" height="170" as="geometry" />
         </mxCell>
         <mxCell id="F1_7sfEC2RjUFfPmMDEk-46" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="F1_7sfEC2RjUFfPmMDEk-32" target="F1_7sfEC2RjUFfPmMDEk-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
