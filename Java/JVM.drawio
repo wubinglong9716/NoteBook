@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T03:14:58.960Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="VweRlZxa9hIFZzKUfEg1" version="14.6.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-25T03:16:15.834Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="g7IxERB96zOpBbP6B6gZ" version="14.6.13" type="github" pages="2">
   <diagram id="iXDO6jAIla3Y5226yzrE" name="内存结构">
     <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -77,7 +77,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="F1_7sfEC2RjUFfPmMDEk-24" value="每个线程在执行的时候，都会分配一个程序计数器，记录执行到方法区的地址&lt;br&gt;&lt;br&gt;程序计数器的意义在于并发问题，需要记录当前程序执行到的位置，在下次获取到时间片时继续执行" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="1810" y="1190" width="310" height="115" as="geometry" />
+          <mxGeometry x="1810" y="1190" width="580" height="120" as="geometry" />
         </mxCell>
         <mxCell id="F1_7sfEC2RjUFfPmMDEk-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="F1_7sfEC2RjUFfPmMDEk-28" target="F1_7sfEC2RjUFfPmMDEk-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
