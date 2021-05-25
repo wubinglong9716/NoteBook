@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T11:31:12.871Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="yjpS_pW2leyqi75gk3V2" version="14.6.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-25T12:21:51.576Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="sCuGRe2te9tyzwxuXHaA" version="14.6.13" type="github" pages="2">
   <diagram id="iXDO6jAIla3Y5226yzrE" name="内存结构">
     <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -223,6 +223,162 @@
         </mxCell>
         <mxCell id="VVIa2zSez2NkSubFIxh0-20" value="将 GC Roots 对象为起点，从这些起点向下搜索引用对象，搜索到的对象都会标记为非垃圾对象，其余未标记的对象都是垃圾对象&lt;br&gt;&lt;br&gt;注意：可达性分析只负责标记，具体的回收由 gc 执行" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
           <mxGeometry x="2720" y="1330" width="410" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-21" target="VVIa2zSez2NkSubFIxh0-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-21" target="VVIa2zSez2NkSubFIxh0-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-21" value="可达性分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="200" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-41" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-22" target="VVIa2zSez2NkSubFIxh0-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-22" value="从 GC Roots Set 开始向下搜索所有的被引用对象，并标记为非垃圾对象，其它的为垃圾对象&lt;br&gt;&lt;br&gt;注意：可达性分析只负责标记引用关系，并不负责收集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="360" y="140" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-24" value="GC Roots Set" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="40" y="240" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-25" target="VVIa2zSez2NkSubFIxh0-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-25" value="GC Root" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="85" y="245" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-26" target="VVIa2zSez2NkSubFIxh0-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-26" target="VVIa2zSez2NkSubFIxh0-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-26" value="object_1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="85" y="300" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-27" value="object_2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="5" y="350" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-28" value="object_3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="175" y="350" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-34" target="VVIa2zSez2NkSubFIxh0-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-34" target="VVIa2zSez2NkSubFIxh0-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-34" value="object_4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="345" y="300" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-35" value="object_5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="265" y="350" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-36" value="object_6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="435" y="350" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-40" value="Java 中，在被可达性分析标记为垃圾对象之后，会进行“是否需要执行 finalize 方法”。需要执行的会进入到 F-Queue 的队列中，由低优先级的 Fianlize 线程执行，如果在 finalize 中重新被引用，那对象不会被回收，但是第二次被标记为垃圾，因为 finalize 方法已经执行过了，所以大概率是会被回收。&lt;br&gt;&lt;br&gt;注意：finalize 并不一定会执行完成，因为如果 finalize 是一个长业务则会影响系统的性能甚至使系统奔溃；每个对象的 finalize 方法最多执行一次，没有复写或执行过则不会执行。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="730" y="80" width="350" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-47" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-42" target="VVIa2zSez2NkSubFIxh0-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-42" target="VVIa2zSez2NkSubFIxh0-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-42" value="分代理论" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="200" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-49" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-43" target="VVIa2zSez2NkSubFIxh0-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-43" value="弱分代假说" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="360" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-50" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-44" target="VVIa2zSez2NkSubFIxh0-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-44" value="强分代假说" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="360" y="640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-45" value="绝大多数对象都是朝生夕灭的" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="520" y="560" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-46" value="熬过越多次的回收的对象则越难以消亡" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="520" y="640" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-51" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="620" as="sourcePoint" />
+            <mxPoint x="880" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-52" value="这两种假说奠定了 Java 内存划分出不同的区域进行垃圾回收" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="900" y="590" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-58" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-55" target="VVIa2zSez2NkSubFIxh0-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-61" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-55" target="VVIa2zSez2NkSubFIxh0-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-55" value="跨代引用假说" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="1210" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-56" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1090" y="619.5" as="sourcePoint" />
+            <mxPoint x="1190" y="619.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-57" value="跨代引用相对于同代引用的占比很小" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="1370" y="600" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-59" value="这是由内存区域划分(分代)引入的新问题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="1203.75" y="680" width="132.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-63" value="非垃圾对象" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="5" y="410" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-64" value="垃圾对象" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="95" y="410" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-67" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-65" target="VVIa2zSez2NkSubFIxh0-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-65" value="标记-清除算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="200" y="760" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-69" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-66" target="VVIa2zSez2NkSubFIxh0-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-66" value="先对所有的内存对象进行标记(存活对象和垃圾对象)，然后对垃圾对象进行清除" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="360" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-68" value="缺点&lt;br&gt;&lt;ul&gt;&lt;li&gt;如果存在大量的对象，其中的大量对象都需要进行清除，这时会进行大量的标记和清除操作，导致执行效率随着对象数量的上升而降低&lt;/li&gt;&lt;li&gt;空间碎片化问题，空间上产生的不连续的空间不能被大对象利用，降低内存空间的利用率&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="520" y="720" width="560" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-72" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-70" target="VVIa2zSez2NkSubFIxh0-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-70" value="标记-复制算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="200" y="920" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-71" value="先对所有的内存对象进行标记(存活对象和垃圾对象)，然后把存活对象复制到另外一片内存区域，重新建立引用后清除一片内存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="360" y="885" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-73" value="优点：执行高效，直接清理一片内存空间，不存在内存空间碎片化&lt;br&gt;缺点：存活对象过多会导致复制过程效率低下，只能使用部分的内存，另外一部分内存为准备复制的内存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="520" y="880" width="560" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-76" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3DsW1-FtTBoWucF77_-t-1" source="VVIa2zSez2NkSubFIxh0-74" target="VVIa2zSez2NkSubFIxh0-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-74" value="标记-整理算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="200" y="1080" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VVIa2zSez2NkSubFIxh0-75" value="先对所有的内存对象进行标记(存活对象和垃圾对象)，然后把存活对象整理到连续的内存区域" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
+          <mxGeometry x="360" y="1045" width="120" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
