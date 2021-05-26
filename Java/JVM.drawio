@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T12:30:04.726Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="d40K1zqI4tBmJqa2imY0" version="14.6.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-26T09:37:37.041Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="A-TOrPYYBFn7gJbWISiR" version="14.7.0" type="github" pages="3">
   <diagram id="iXDO6jAIla3Y5226yzrE" name="内存结构">
     <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -91,10 +91,10 @@
         <mxCell id="6eLPjGBDULsrqhj8GLS7-11" value="JVM 调优是减少 gc 的次数，尤其是 full gc&lt;br&gt;STW，当 gc 开始时，用户线程会停止，gc 线程开始进行垃圾回收，这个时候会照成业务无法处理&lt;br&gt;该机制存在的意义：如果用户线程没有停止，那么用户线程就会继续执行，在执行的过程中，出栈的栈帧内的数据则应该是垃圾对象，而如果 gc 线层在此之前标记出栈的栈帧数据未非垃圾对象就出现错误，则需要重新标记，在多线程时，用户线程不停止则可能导致 gc 无线重新标记而没有清理数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2200" y="840" width="680" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="tgfB3nN2-oGck-NGAVLJ-1" value="栈、本地方法栈、程序计数器是线程隔离的数据区&lt;br&gt;方法区、堆、执行引擎、本地库文件是线程共享的数据区&lt;br&gt;&lt;br&gt;对于栈(包括本地方法栈)和程序计数器的内存来说，回收是确定的，当方法结束或线程结束，内存也就回收&lt;br&gt;但是对于方法区和堆来说，对象的使用具有不确定性，所以需要使用 gc (垃圾收集器) 来对内存进行管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tgfB3nN2-oGck-NGAVLJ-1" value="栈、本地方法栈、程序计数器是线程隔离的数据区&lt;br&gt;方法区、堆、执行引擎、本地库文件是线程共享的数据区&lt;br&gt;&lt;br&gt;对于栈(包括本地方法栈)和程序计数器的内存来说，回收是确定的，当方法结束或线程结束，内存也就回收&lt;br&gt;但是对于方法区和堆来说，对象的使用具有不确定性，所以需要使用 gc (垃圾收集器) 来对内存进行管理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2200" y="1000" width="680" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="tgfB3nN2-oGck-NGAVLJ-2" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;引用&lt;/span&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;强引用：Object obj = new Object() 类型的引用；只要强引用关系还在，对象就不会被回收&lt;/li&gt;&lt;li&gt;软引用：描述一些还有用但是是非必须的对象；在将要放生内存溢出异常前，会对这些对象列进回收范围之中进行二次回收；如果回收软引用对象之后内存依然不够，就会抛出内存溢出异常&lt;/li&gt;&lt;li&gt;弱引用：比软引用还弱的非必须对象；弱引用对象只能存活到下一次垃圾回收&lt;/li&gt;&lt;li&gt;虚引用：不会对对象的生命周期产生任何影响，也无法通过虚引用获取到对象；虚引用的唯一作用是在这个对象被收集器回收时收到一个系统的通知&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="tgfB3nN2-oGck-NGAVLJ-2" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;引用&lt;/span&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;强引用：Object obj = new Object() 类型的引用；只要强引用关系还在，对象就不会被回收&lt;/li&gt;&lt;li&gt;软引用：描述一些还有用但是是非必须的对象；在将要放生内存溢出异常前，会对这些对象列进回收范围之中进行二次回收；如果回收软引用对象之后内存依然不够，就会抛出内存溢出异常&lt;/li&gt;&lt;li&gt;弱引用：比软引用还弱的非必须对象；弱引用对象只能存活到下一次垃圾回收&lt;/li&gt;&lt;li&gt;虚引用：不会对对象的生命周期产生任何影响，也无法通过虚引用获取到对象；虚引用的唯一作用是在这个对象被收集器回收时收到一个系统的通知&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1000" y="1560" width="600" height="160" as="geometry" />
         </mxCell>
       </root>
@@ -326,6 +326,42 @@
         </mxCell>
         <mxCell id="VVIa2zSez2NkSubFIxh0-78" value="与标记-清除算法的区别在于对象是否进行移动，该项决策的风险和收益也显而易见" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3DsW1-FtTBoWucF77_-t-1">
           <mxGeometry x="520" y="1040" width="560" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="WC-fjuM9CeaPRoUUyMZL" name="HotSpot">
+    <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-0" />
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-1" parent="xFK0c3wcbLDE0F0HUyZb-0" />
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-3" value="GC Roots Set 的元素主要在全局性引用(常量和静态属性等)与执行上下文(如栈帧中的变量引用等)中，如果采用遍历的方式寻找到所有的元素，对虚拟机来说也是一笔不小的开销&lt;br&gt;&lt;br&gt;注意：GC Roots Set 是 “stop the world” 模式，整个寻找的枚举过程中，如果元素的引用还能变化，那结果将会不准确" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xFK0c3wcbLDE0F0HUyZb-1">
+          <mxGeometry x="120" y="120" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-4" value="HotSpot 使用 OopMap 进行优化，在类文件完成加载后，HotSpot 会把对象内的偏移量上的的数据类型计算出来，在即使编译过程中，在特定的位置记录栈里和寄存器是在那些位置被引用。这样收集器可以直接从 OopMap 上获取到这些信息&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xFK0c3wcbLDE0F0HUyZb-1">
+          <mxGeometry x="180" y="360" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-6" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="xFK0c3wcbLDE0F0HUyZb-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="230" as="sourcePoint" />
+            <mxPoint x="280" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-7" value="HotSpot 优化方案" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xFK0c3wcbLDE0F0HUyZb-6">
+          <mxGeometry x="-0.1636" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-8" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="xFK0c3wcbLDE0F0HUyZb-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="414.5" as="sourcePoint" />
+            <mxPoint x="560" y="414.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-10" value="OopMap 位置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xFK0c3wcbLDE0F0HUyZb-8">
+          <mxGeometry x="-0.2571" y="3" relative="1" as="geometry">
+            <mxPoint x="8" y="2" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
