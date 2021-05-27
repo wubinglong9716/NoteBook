@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-26T11:34:32.103Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="6ISmeXpxHqQl9jK8fBdt" version="14.7.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-27T12:31:03.514Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="QtJYjg4EGHy4TIQqlNU9" version="14.7.0" type="github" pages="3">
   <diagram id="iXDO6jAIla3Y5226yzrE" name="内存结构">
     <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -362,6 +362,76 @@
           <mxGeometry x="-0.2571" y="3" relative="1" as="geometry">
             <mxPoint x="8" y="2" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-11" value="如果每条指令都生成一个 OopMap，那将会使用大量的额外空间。所以只是在“特定的位置”(安全点)生成" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xFK0c3wcbLDE0F0HUyZb-1">
+          <mxGeometry x="580" y="360" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-12" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="xFK0c3wcbLDE0F0HUyZb-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="699.5" y="360" as="sourcePoint" />
+            <mxPoint x="699.5" y="240" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-13" value="安全点选取标准" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xFK0c3wcbLDE0F0HUyZb-12">
+          <mxGeometry x="-0.0833" y="-1" relative="1" as="geometry">
+            <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-14" value="安全点的位置选取是以“是否具有让程序长时间执行的特征”为标准，“长时间执行”的最明显特征就是指令复用——方法调用、循环跳转、异常跳转等" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xFK0c3wcbLDE0F0HUyZb-1">
+          <mxGeometry x="555" y="130" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-15" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="xFK0c3wcbLDE0F0HUyZb-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="170" as="sourcePoint" />
+            <mxPoint x="1070" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-16" value="线程中断" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xFK0c3wcbLDE0F0HUyZb-15">
+          <mxGeometry x="-0.1412" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-19" value="抢先式中断&lt;br&gt;强制停止线程，线程挺值的位置不安全点则恢复运行至安全点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xFK0c3wcbLDE0F0HUyZb-1">
+          <mxGeometry x="1110" y="80" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-20" value="主动式中断&lt;br&gt;设置一个标志，线程主动轮询这个标志，发现标志后运行至安全点停止&lt;br&gt;轮询标志和安全点是重合的" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xFK0c3wcbLDE0F0HUyZb-1">
+          <mxGeometry x="1100" y="190" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-21" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="xFK0c3wcbLDE0F0HUyZb-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1200" y="250" as="sourcePoint" />
+            <mxPoint x="1200" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-22" value="频繁轮询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xFK0c3wcbLDE0F0HUyZb-21">
+          <mxGeometry x="-0.1538" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-23" value="轮询的频率很大，所以HotSpot 设计了一条高效的指令 test&lt;br&gt;当需要挂起时，虚拟机将 test 的内存页设置为不可读，程序执行到此处就会产生异常，然后在预先注册好的异常处理器中挂起线程等待" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xFK0c3wcbLDE0F0HUyZb-1">
+          <mxGeometry x="1080" y="375" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-24" value="程序无法执行到安全点" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="xFK0c3wcbLDE0F0HUyZb-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1350" y="420" as="sourcePoint" />
+            <mxPoint x="1530" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-25" value="安全点是程序执行指令集上的一个指令，那如果线程进入阻塞则不会执行到安全点，此时线程将无法保证在整个内存回收过程全程挂起" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xFK0c3wcbLDE0F0HUyZb-1">
+          <mxGeometry x="1550" y="360" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-26" value="安全区" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="xFK0c3wcbLDE0F0HUyZb-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1640" y="360" as="sourcePoint" />
+            <mxPoint x="1640" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-27" value="&lt;br&gt;安全区是值在某一代码片段里面，引用关系不会发生改变&lt;br&gt;&lt;br&gt;线程如果一直处于阻塞状态直到回收完毕其实是安全的，所以设置安全区来解决这个问题。&lt;br&gt;当线程执行到安全区时，会标识自己，垃圾回收线程则不用关心自己；当线程要离开安全区时，需要检查时候遍历完 GC Roots Set ，如果完成则继续执行，如果没完成则继续等待" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xFK0c3wcbLDE0F0HUyZb-1">
+          <mxGeometry x="1480" y="130" width="310" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-28" value="分区回收垃圾对象都存在跨区引用的问题，HotSpot 设置了 RemenberedSet 数据结构，" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xFK0c3wcbLDE0F0HUyZb-1">
+          <mxGeometry x="210" y="620" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
