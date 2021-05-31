@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T12:31:03.514Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="QtJYjg4EGHy4TIQqlNU9" version="14.7.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-31T01:54:32.838Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="yv8vzPtkTQs9oQbIIZ9D" version="14.7.0" type="github" pages="3">
   <diagram id="iXDO6jAIla3Y5226yzrE" name="内存结构">
     <mxGraphModel dx="946" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -430,8 +430,17 @@
         <mxCell id="xFK0c3wcbLDE0F0HUyZb-27" value="&lt;br&gt;安全区是值在某一代码片段里面，引用关系不会发生改变&lt;br&gt;&lt;br&gt;线程如果一直处于阻塞状态直到回收完毕其实是安全的，所以设置安全区来解决这个问题。&lt;br&gt;当线程执行到安全区时，会标识自己，垃圾回收线程则不用关心自己；当线程要离开安全区时，需要检查时候遍历完 GC Roots Set ，如果完成则继续执行，如果没完成则继续等待" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xFK0c3wcbLDE0F0HUyZb-1">
           <mxGeometry x="1480" y="130" width="310" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="xFK0c3wcbLDE0F0HUyZb-28" value="分区回收垃圾对象都存在跨区引用的问题，HotSpot 设置了 RemenberedSet 数据结构，" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xFK0c3wcbLDE0F0HUyZb-1">
-          <mxGeometry x="210" y="620" width="150" height="60" as="geometry" />
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-28" value="分区回收垃圾对象都存在跨区引用的问题，HotSpot 设置了 RemenberedSet 数据结构&lt;br&gt;记忆集存储跨代引用的三种粒度：&lt;br&gt;&lt;ul&gt;&lt;li&gt;字长精度：记录跨域引用的引用的字长位置&lt;/li&gt;&lt;li&gt;对象精度：记录到对象，该对象的字段有跨域引用&lt;/li&gt;&lt;li&gt;卡精度：记录一块内存区域，该区域内有对象跨域引用（常用）&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xFK0c3wcbLDE0F0HUyZb-1">
+          <mxGeometry x="50" y="510" width="510" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-29" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="xFK0c3wcbLDE0F0HUyZb-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="554.5" as="sourcePoint" />
+            <mxPoint x="680" y="554.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xFK0c3wcbLDE0F0HUyZb-30" value="卡精度的具体实现数据结构是字节数组（卡表），每个元素是卡页的起始位置，卡页的大小固定" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xFK0c3wcbLDE0F0HUyZb-1">
+          <mxGeometry x="720" y="510" width="280" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
