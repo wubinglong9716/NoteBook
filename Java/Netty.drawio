@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T14:58:12.072Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="TngoNpByA94QTn5w6NRJ" version="14.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-06-10T15:36:20.455Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="wlvC0hKBYMcUxPU0BIxr" version="14.7.3" type="github" pages="3">
   <diagram id="vtQ01sztWmCrGbH8WjkW" name="基础">
     <mxGraphModel dx="946" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -566,6 +566,9 @@
         </mxCell>
         <mxCell id="XwkdHKjh3kOZvALiO_Oa-0" value="JDK 7 引入的 Path，提供路径的处理对象&lt;br&gt;Files 和 Paths 提供路径和问价的处理工具类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="TxqH6cJ-eY6QyFiwBsPc-1">
           <mxGeometry x="1340" y="590" width="520" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tkW2iyZF_dhyKUER6JJ8-0" value="SocketChannel 正常断开，服务器读取的结果是 -1，异常断开服务器会出现异常" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="TxqH6cJ-eY6QyFiwBsPc-1">
+          <mxGeometry x="1340" y="720" width="520" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
