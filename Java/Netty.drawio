@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T15:36:20.455Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="wlvC0hKBYMcUxPU0BIxr" version="14.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-06-11T08:50:55.349Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="wHe08fX2RmiKA-ZFeVZX" version="14.7.3" type="github" pages="3">
   <diagram id="vtQ01sztWmCrGbH8WjkW" name="基础">
     <mxGraphModel dx="946" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -29,11 +29,14 @@
         <mxCell id="hmNShiNEGyLMiF2ggFaA-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="hmNShiNEGyLMiF2ggFaA-1" target="hmNShiNEGyLMiF2ggFaA-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="hlZ1q4K5Jaol25BWaaqP-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hmNShiNEGyLMiF2ggFaA-1" target="hlZ1q4K5Jaol25BWaaqP-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hmNShiNEGyLMiF2ggFaA-1" value="IO" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="80" width="120" height="40" as="geometry" />
+          <mxGeometry x="240" y="80" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hmNShiNEGyLMiF2ggFaA-2" value="BIO" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="200" width="120" height="40" as="geometry" />
+          <mxGeometry x="80" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hmNShiNEGyLMiF2ggFaA-3" value="NIO" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="200" width="120" height="40" as="geometry" />
@@ -138,6 +141,9 @@
         </mxCell>
         <mxCell id="wr5jNnSVcQE8fxkFvGMQ-39" value="每个线程在同一时刻只能做一件事情，所以每个 thread 在某一时刻只能获取到一个对象的消息&lt;br&gt;复用器的原理是复用器在轮训每个 socket，收集有消息的对象，然后等待 thread 发起获取请求时全部发送" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="960" width="690" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="hlZ1q4K5Jaol25BWaaqP-1" value="AIO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
