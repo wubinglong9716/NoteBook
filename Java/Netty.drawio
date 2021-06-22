@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-22T14:02:32.469Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="ItDt9j0Dp7AxiH8NrW93" version="14.7.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-06-22T14:12:49.243Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="C4rbpC2YbDNKP-RRFxMq" version="14.7.7" type="github" pages="3">
   <diagram id="vtQ01sztWmCrGbH8WjkW" name="基础">
     <mxGraphModel dx="2066" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -153,6 +153,12 @@
       <root>
         <mxCell id="TxqH6cJ-eY6QyFiwBsPc-0" />
         <mxCell id="TxqH6cJ-eY6QyFiwBsPc-1" parent="TxqH6cJ-eY6QyFiwBsPc-0" />
+        <mxCell id="CN-9Pncl4limhbKj-alC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="TxqH6cJ-eY6QyFiwBsPc-1" source="CN-9Pncl4limhbKj-alC-0" target="CN-9Pncl4limhbKj-alC-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CN-9Pncl4limhbKj-alC-0" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="TxqH6cJ-eY6QyFiwBsPc-1">
+          <mxGeometry x="1320" y="200" width="560" height="360" as="geometry" />
+        </mxCell>
         <mxCell id="_flQBCWfk1pTwWJ1hS1e-149" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="TxqH6cJ-eY6QyFiwBsPc-1" vertex="1">
           <mxGeometry x="160" y="80" width="760" height="920" as="geometry" />
         </mxCell>
@@ -576,15 +582,21 @@
         <mxCell id="tkW2iyZF_dhyKUER6JJ8-0" value="SocketChannel 正常断开，服务器读取的结果是 -1，异常断开服务器会出现异常&lt;br&gt;正常断开和异常断开都会触发读事件，需要反注册" style="rounded=0;whiteSpace=wrap;html=1;" parent="TxqH6cJ-eY6QyFiwBsPc-1" vertex="1">
           <mxGeometry x="1340" y="720" width="520" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="CN-9Pncl4limhbKj-alC-1" value="解决黏包的方式是拆包的方式：&lt;br&gt;&lt;ol&gt;&lt;li&gt;约定固定消息最大长度&lt;/li&gt;&lt;li&gt;约定分隔符&lt;/li&gt;&lt;li&gt;约定消息格式，且包含消息长度（LTV，TLV）&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="TxqH6cJ-eY6QyFiwBsPc-1">
+          <mxGeometry x="1960" y="200" width="520" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="CN-9Pncl4limhbKj-alC-3" value="&lt;br class=&quot;Apple-interchange-newline&quot;&gt;约定消息最大长度的方式缺陷明显，消息超出长度和消息短都会造成问题；约定分割符也会造成 buffer 的扩容缩容问题，查找分隔符也浪费资源；约定消息格式且带有消息长度则有利于空间的利用，缺点是需要对方统计消息长度准确" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="TxqH6cJ-eY6QyFiwBsPc-1">
+          <mxGeometry x="2012.5" y="420" width="415" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="tnNEblyzdxXuBRPhDfY0" name="selector">
-    <mxGraphModel dx="946" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="OdDMrh1AIYp3ZM3cb9_X-0" />
         <mxCell id="OdDMrh1AIYp3ZM3cb9_X-1" parent="OdDMrh1AIYp3ZM3cb9_X-0" />
-        <mxCell id="OdDMrh1AIYp3ZM3cb9_X-2" value="selector 多路复用器将时间分为四种类型：&lt;br&gt;&lt;ul&gt;&lt;li&gt;accept：有客户端请求连接时触发&lt;/li&gt;&lt;li&gt;connect：和客户端建立连接后触发&lt;/li&gt;&lt;li&gt;read：可读事件&lt;/li&gt;&lt;li&gt;write：可写事件&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OdDMrh1AIYp3ZM3cb9_X-1">
+        <mxCell id="OdDMrh1AIYp3ZM3cb9_X-2" value="selector 多路复用器将时间分为四种类型：&lt;br&gt;&lt;ul&gt;&lt;li&gt;accept：有客户端请求连接时触发&lt;/li&gt;&lt;li&gt;connect：和客户端建立连接后触发&lt;/li&gt;&lt;li&gt;read：可读事件&lt;/li&gt;&lt;li&gt;write：可写事件&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="OdDMrh1AIYp3ZM3cb9_X-1" vertex="1">
           <mxGeometry x="120" y="120" width="360" height="160" as="geometry" />
         </mxCell>
       </root>
