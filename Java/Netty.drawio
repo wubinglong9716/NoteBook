@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-11T09:04:35.669Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="qscaapYzMH0CTC_7uhDT" version="14.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-06-22T14:02:32.469Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="ItDt9j0Dp7AxiH8NrW93" version="14.7.7" type="github" pages="3">
   <diagram id="vtQ01sztWmCrGbH8WjkW" name="基础">
-    <mxGraphModel dx="946" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,7 +29,7 @@
         <mxCell id="hmNShiNEGyLMiF2ggFaA-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="hmNShiNEGyLMiF2ggFaA-1" target="hmNShiNEGyLMiF2ggFaA-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hlZ1q4K5Jaol25BWaaqP-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hmNShiNEGyLMiF2ggFaA-1" target="hlZ1q4K5Jaol25BWaaqP-1">
+        <mxCell id="hlZ1q4K5Jaol25BWaaqP-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hmNShiNEGyLMiF2ggFaA-1" target="hlZ1q4K5Jaol25BWaaqP-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hmNShiNEGyLMiF2ggFaA-1" value="IO" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -142,14 +142,14 @@
         <mxCell id="wr5jNnSVcQE8fxkFvGMQ-39" value="每个线程在同一时刻只能做一件事情，所以每个 thread 在某一时刻只能获取到一个对象的消息&lt;br&gt;复用器的原理是复用器在轮训每个 socket，收集有消息的对象，然后等待 thread 发起获取请求时全部发送" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="960" width="690" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="hlZ1q4K5Jaol25BWaaqP-1" value="AIO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hlZ1q4K5Jaol25BWaaqP-1" value="AIO" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="200" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="E_9Kuw1ZDNIQDEp0Eqoe" name="原理">
-    <mxGraphModel dx="946" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="TxqH6cJ-eY6QyFiwBsPc-0" />
         <mxCell id="TxqH6cJ-eY6QyFiwBsPc-1" parent="TxqH6cJ-eY6QyFiwBsPc-0" />
@@ -570,10 +570,10 @@
         <mxCell id="byncCjt5I7O3vCyUWdMh-14" value="黏包是为了减少发送的次数，提高客户端和服务器之间的效率，半包是长度超出缓冲区 buffer 的大小限制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="TxqH6cJ-eY6QyFiwBsPc-1" vertex="1">
           <mxGeometry x="1450" y="470" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XwkdHKjh3kOZvALiO_Oa-0" value="JDK 7 引入的 Path，提供路径的处理对象&lt;br&gt;Files 和 Paths 提供路径和问价的处理工具类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="TxqH6cJ-eY6QyFiwBsPc-1">
+        <mxCell id="XwkdHKjh3kOZvALiO_Oa-0" value="JDK 7 引入的 Path，提供路径的处理对象&lt;br&gt;Files 和 Paths 提供路径和问价的处理工具类" style="rounded=0;whiteSpace=wrap;html=1;" parent="TxqH6cJ-eY6QyFiwBsPc-1" vertex="1">
           <mxGeometry x="1340" y="590" width="520" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="tkW2iyZF_dhyKUER6JJ8-0" value="SocketChannel 正常断开，服务器读取的结果是 -1，异常断开服务器会出现异常" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="TxqH6cJ-eY6QyFiwBsPc-1">
+        <mxCell id="tkW2iyZF_dhyKUER6JJ8-0" value="SocketChannel 正常断开，服务器读取的结果是 -1，异常断开服务器会出现异常&lt;br&gt;正常断开和异常断开都会触发读事件，需要反注册" style="rounded=0;whiteSpace=wrap;html=1;" parent="TxqH6cJ-eY6QyFiwBsPc-1" vertex="1">
           <mxGeometry x="1340" y="720" width="520" height="90" as="geometry" />
         </mxCell>
       </root>
